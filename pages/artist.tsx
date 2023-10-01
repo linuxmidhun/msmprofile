@@ -117,7 +117,7 @@ const artist = () => (
                     <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                         {userData.movies.map((item, index) => {
                             return (
-                                <div className=" group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-purple-200 dark:border-gray-700 w-full aspect-w-16 aspect-h-9 shadow-violet-900">
+                                <div key={index} className=" group mb-4 hover:shadow-lg rounded-xl transition duration-200 relative border border-purple-200 dark:border-gray-700 w-full aspect-w-16 aspect-h-9 shadow-violet-900">
                                     <iframe width="100%" className='h-56 md:h-76 rounded-tl-xl rounded-tr-xl' src={item.url} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
                                     <div className='px-2 py-2'>
                                         {/* <span className='text-lg font-bold text-gray-700 -mt-2 dark:text-gray-200'>{item.title}</span> */}
