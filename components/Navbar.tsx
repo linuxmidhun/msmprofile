@@ -22,7 +22,7 @@ export default function Navbar() {
                     <Link href="/">
                         <RoughNotationGroup show={true}>
                             <RainbowHighlight color={'#84CC16'}>
-                                <h1 className="font-semibold text-5xl dark:text-gray-100" style={{ padding: '10px 15px', color: 'white' }}>
+                                <h1 className="font-semibold text-xl md:text-3xl dark:text-gray-100" style={{ padding: '5px 10px', opacity: 0.8, color: 'white', background: 'purple' }}>
                                     {userData.name}
                                 </h1>
                             </RainbowHighlight>

@@ -33,7 +33,7 @@ export default function Hero() {
                 <Image src={img} alt="My photo here" className=" bg-stone-500 shadow-lg shadow-stone-500/50 md:shadow-teal-500/50 rounded-tl-lg rounded-tr-lg md:rounded-tr-lg shadow" />
                 <div className="flex flex-row justify-between -mt-10">
                     <div className="flex flex-row shadow-2xl space-x-4">
-                        <p className="font-mono" style={{ background: 'orange' }}>&nbsp;I do look like this... at times!&nbsp;</p>
+                        <p className="font-mono" style={{ background: 'orange' }}>&nbsp;This is how I look... at times!&nbsp;</p>
                     </div>
                 </div>
             </div>

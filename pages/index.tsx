@@ -26,22 +26,23 @@ const index = () => {
                         className="text-lg font-sans text-gray-500 mx-4 dark:text-gray-300"
                         style={{ lineHeight: "1.5rem" }}
                     >
-                        <span className='text-2xl font-serif italic font-black'>And</span> after those eventful years as an engineer I took a turn and started as an art enthusiast <code className='font-mono text-sm'>(which I was, from the beginning of time)</code>, wrote some short stories, screenplays, songs, worked as an actor in some short/feature films & serieses, and directed a couple of short-films. But I never wanted to quit my journey as a technologist. So I started mentoring and grooming technology start ups and teaching technology to who ever is keen and eager to learn.
+                        <span className='text-2xl font-serif italic font-black'>After</span> those eventful years as an engineer I took a turn and started as an art enthusiast <code className='font-mono text-sm'>(which I was, from the beginning of time)</code>, wrote some short stories, screenplays, songs, worked as an actor in some short/feature films & serieses, and directed a couple of short-films. But I never wanted to quit my journey as a technologist. So I started mentoring and grooming technology start ups and teaching technology to who ever is keen and eager to learn it.
                     </p>
                     <br />
                     <p
                         className="text-lg font-sans text-gray-500 mx-4 dark:text-gray-300"
                         style={{ lineHeight: "1.5rem" }}
                     >
-                        Here I welcome you to my website to know little something about me. Happy Happy!&#128578;
+                        &#9679;&#9679;&#9679;
                     </p>
-                    {/* <br /><br />
+                    <br />
                     <p
-                        className="leading-loose md:text-2xl font-semibold  mx-4"
-                        style={{ lineHeight: "3rem" }}
+                        className="text-lg font-sans text-gray-500 mx-4 dark:text-gray-300"
+                        style={{ lineHeight: "1.5rem" }}
                     >
-                        Here I welcome you to my website to know little something about me. Happy Happy!
-                    </p> */}
+                        “Tell me and I forget, teach me and I may remember, involve me and I learn.”<b> - Benjamin Franklin.</b>
+                        {/* Here with this website you may know little something about me. Happy Happy!&#128578; */}
+                    </p>
                 </div>
             </div>
         </ContainerBlock>

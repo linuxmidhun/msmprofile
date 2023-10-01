@@ -1,11 +1,92 @@
 const userData = {
   githubUsername: "linuxmidhun",
-  name: "M S M",
+  name: "Midhun S Madhavan",
   designation: "",
   avatarUrl: "/images/litupface.png",
   email: "midhunmadhavan.se@gmail.com",
   phone: "+91 9526599478",
   address: "Ernakulam, Kerala, India.",
+  movies: [
+    {
+      url: "https://www.youtube.com/embed/4M6QQOxueFs",
+      title: "RANDAAM NAAL",
+      contentType: "Feature Film",
+      activity: "Actor",
+      description: "", accloads: []
+    },
+    {
+      url: "https://www.youtube.com/embed/zPhGjOomcQk",
+      title: "THE OUTSIDER",
+      contentType: "Micro Film",
+      activity: "Actor, Writer, Director",
+      description: "", accloads: []
+    },
+    {
+      url: "https://www.youtube.com/embed/jFjqTqbu6fk", 
+      title: "RAINBOW NIGHTS",
+      contentType: "Micro Film",
+      activity: "Actor, Writer, Director",
+      description: "", accloads: []
+    },
+    {
+      url: "https://www.youtube.com/embed/ZOVHJSDFf8M", 
+      title: "ENDLESS",
+      contentType: "Short Film",
+      activity: "Writer, Associate Director",
+      description: "", accloads: []
+    },
+    {
+      url: "https://www.youtube.com/embed/tIcvUtRGOC8", 
+      title: "THE ARTIST",
+      contentType: "Short Film",
+      activity: "Actor, Art Assistant, Subtitlist",
+      description: "", accloads: []
+    },
+    {
+      url: "https://www.youtube.com/embed/6vB0650YP1Y", 
+      title: "AZTAR",
+      contentType: "Short Film",
+      activity: "Actor",
+      description: "", accloads: []
+    },
+    {
+      url: "https://www.youtube.com/embed/XHuiPbyPSw0", 
+      title: "SHADES OF GREY",
+      contentType: "Short Film",
+      activity: "Actor",
+      description: "", accloads: []
+    },
+    {
+      url: "https://www.youtube.com/embed/nX2SYE6xd1M", title: "THIRAYILLA THOKKU",
+      contentType: "Short Film",
+      activity: "Writer",
+      description: "", accloads: []
+    },
+    {
+      url: "https://www.youtube.com/embed/ktkhTUEmSoY", title: "SAVITHRI Part-1",
+      contentType: "Webseries",
+      activity: "Actor",
+      description: "", accloads: []
+    },
+    {
+      url: "https://www.youtube.com/embed/2wEq6USk5Eo", title: "SAVITHRI Part-2",
+      contentType: "Webseries",
+      activity: "Actor",
+      description: "", accloads: []
+    },
+    {
+      url: "https://www.youtube.com/embed/ON8d5R34N40", title: "MALLAN MUKK Ep:2",
+      contentType: "Webseries",
+      activity: "Actor",
+      description: "", accloads: []
+    },
+    {
+      url: "https://www.youtube.com/embed/J9f2JMgmGus", title: "MALLAN MUKK Ep:3",
+      contentType: "Webseries",
+      activity: "Actor",
+      description: "", accloads: []
+    },
+  ],
   projects: [
     {
       title: "Tailwind Master Kit",
