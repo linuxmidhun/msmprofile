@@ -1,8 +1,9 @@
 import img from '../images/avatar.png';
 import Image from 'next/image'
-import { RainbowHighlight } from './RainbowHighlight';
+import userData from '@/constants/data';
 
 export default function Hero() {
+    const imgSouce = userData.avatarUrl;
     return (
         <div className=' home-topper'>
             {/*  */}
@@ -11,18 +12,18 @@ export default function Hero() {
                 <div className="inline-flex flex-col" style={{ zIndex: 2000 }}>
                     <div className="basis mx-auto text-center md:text-left lg:px-10">
                         <div>
-                            <p className="leading-loose shadow-text italic text-xl md:text-3xl font-normal  text-gray-200 font-mono  mx-4">
+                            <p className="leading-loose shadow-text italic text-xl md:text-3xl font-normal  text-gray-200 font-mono  mx-1">
                                 Hello there, I&apos;m
                             </p>
-                            <h1 className="text-6xl shadow-text drop-shadow-lg md:text-9xl font-bold text-gray-200  my-2">
+                            <h1 className="text-6xl shadow-text drop-shadow-lg md:text-8xl font-bold text-gray-200  my-2">
                                 {/* dark:text-gray-200 */}
                                 Midhun
                             </h1>
-                            <h1 className="text-3xl shadow-text drop-shadow-lg md:text-8xl font-bold text-gray-200 my-2">
+                            <h1 className="text-3xl shadow-text drop-shadow-lg md:text-7xl font-bold text-gray-200 my-2">
                                 {/* dark:text-gray-200 */}
                                 Soudamini
                             </h1>
-                            <h1 className="text-5xl shadow-text drop-shadow-lg md:text-9xl font-bold text-gray-200  my-2">
+                            <h1 className="text-5xl shadow-text drop-shadow-lg md:text-8xl font-bold text-gray-200  my-2">
                                 {/* dark:text-gray-200 */}
                                 Madhavan
                             </h1>
@@ -31,8 +32,8 @@ export default function Hero() {
                     </div>
                 </div>
                 <div className="col-span-1 md:col-span-2 -mt-20">
-                    <Image src={img} alt="My photo here" className=" bg-stone-500 shadow-lg shadow-stone-500/50 md:shadow-teal-500/50 rounded-tl-lg rounded-tr-lg md:rounded-tr-lg shadow" />
-                    <div className="flex flex-row justify-between -mt-20">
+                    <Image src={img} alt="My photo here" className=" bg-stone-500 shadow-lg shadow-stone-500/50 md:shadow-teal-500/50 rounded-tl-lg rounded-tr-lg md:rounded-tr-lg shadow"/>
+                    <div className="flex flex-row justify-between -mt-10">
                         <div className="flex flex-row shadow-2xl space-x-4">
                             <p className="font-mono" style={{ background: 'orange' }}>&nbsp;This is how I look... at times!&nbsp;</p>
                         </div>

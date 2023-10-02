@@ -2,132 +2,117 @@ const userData = {
   githubUsername: "linuxmidhun",
   name: "Midhun S Madhavan",
   designation: "",
-  avatarUrl: "/images/litupface.png",
+  avatarUrl: "../images/av.png",
   email: "midhunmadhavan.se@gmail.com",
   phone: "+91 9526599478",
   address: "Ernakulam, Kerala, India.",
   movies: [
     {
-      // https://youtube.com/watch?v=
-      url: "https://www.youtube.com/embed/4M6QQOxueFs",
+      url: "vBHNOEBna-A",
+      title: "ORU RAMESH PAWAR SAMBHAVAM",
+      contentType: "Short Film Promo",
+      activity: "Lyricist",
+      description: "", accloads: [],
+      host: "yt"
+    },
+    {
+      url: "4M6QQOxueFs",
       title: "RANDAAM NAAL",
       contentType: "Feature Film",
       activity: "Actor",
-      description: "", accloads: []
+      description: "", accloads: [],
+      host: "yt"
     },
     {
-      url: "https://www.youtube.com/embed/zPhGjOomcQk",
+      url: "zPhGjOomcQk",
       title: "THE OUTSIDER",
       contentType: "Micro Film",
       activity: "Actor, Writer, Director",
-      description: "", accloads: []
+      description: "", accloads: [],
+      host: "yt"
     },
     {
-      url: "https://www.youtube.com/embed/jFjqTqbu6fk", 
+      url: "jFjqTqbu6fk",
       title: "RAINBOW NIGHTS",
       contentType: "Micro Film",
       activity: "Actor, Writer, Director",
-      description: "", accloads: []
+      description: "", accloads: [],
+      host: "yt"
     },
     {
-      url: "https://www.youtube.com/embed/ZOVHJSDFf8M", 
+      url: "ZOVHJSDFf8M",
       title: "ENDLESS",
       contentType: "Short Film",
       activity: "Writer, Associate Director",
-      description: "", accloads: []
+      description: "", accloads: [],
+      host: "yt"
     },
     {
-      url: "https://www.youtube.com/embed/tIcvUtRGOC8", 
+      url: "tIcvUtRGOC8",
       title: "THE ARTIST",
       contentType: "Short Film",
       activity: "Actor, Art Assistant, Subtitlist",
-      description: "", accloads: []
+      description: "", accloads: [],
+      host: "yt"
     },
     {
-      url: "https://www.youtube.com/embed/6vB0650YP1Y", 
+      url: "6vB0650YP1Y",
       title: "AZTAR",
       contentType: "Short Film",
       activity: "Actor",
-      description: "", accloads: []
+      description: "", accloads: [],
+      host: "yt"
     },
     {
-      url: "https://www.youtube.com/embed/XHuiPbyPSw0", 
+      url: "XHuiPbyPSw0",
       title: "SHADES OF GREY",
       contentType: "Short Film",
       activity: "Actor",
-      description: "", accloads: []
+      description: "", accloads: [],
+      host: "yt"
     },
     {
-      url: "https://www.youtube.com/embed/nX2SYE6xd1M", title: "THIRAYILLA THOKKU",
+      url: "nX2SYE6xd1M",
+      title: "THIRAYILLA THOKKU",
       contentType: "Short Film",
       activity: "Writer",
-      description: "", accloads: []
+      description: "", accloads: [],
+      host: "yt"
     },
     {
-      url: "https://www.youtube.com/embed/ktkhTUEmSoY", title: "SAVITHRI Part-1",
+      url: "ktkhTUEmSoY",
+      title: "SAVITHRI Part-1",
       contentType: "Webseries",
       activity: "Actor",
-      description: "", accloads: []
+      description: "", accloads: [],
+      host: "yt"
     },
     {
-      url: "https://www.youtube.com/embed/2wEq6USk5Eo", title: "SAVITHRI Part-2",
+      url: "2wEq6USk5Eo",
+      title: "SAVITHRI Part-2",
       contentType: "Webseries",
       activity: "Actor",
-      description: "", accloads: []
+      description: "",
+      accloads: [],
+      host: "yt"
     },
     {
-      url: "https://www.youtube.com/embed/ON8d5R34N40", title: "MALLAN MUKK Ep:2",
+      url: "ON8d5R34N40",
+      title: "MALLAN MUKK Ep:2",
       contentType: "Webseries",
       activity: "Actor",
-      description: "", accloads: []
+      description: "",
+      accloads: [],
+      host: "yt"
     },
     {
-      url: "https://www.youtube.com/embed/J9f2JMgmGus", title: "MALLAN MUKK Ep:3",
+      url: "J9f2JMgmGus",
+      title: "MALLAN MUKK Ep:3",
       contentType: "Webseries",
       activity: "Actor",
-      description: "", accloads: []
-    },
-  ],
-  projects: [
-    {
-      title: "Tailwind Master Kit",
-      link: "https://tailwindmasterkit.com",
-      imgUrl: "/tmk.jpg",
-    },
-    {
-      title: "PlaceholderTech",
-      link: "https://placeholdertech.in",
-      imgUrl: "/placeholdertech.png",
-    },
-    {
-      title: "Portfolio",
-      link: "https://manuarora.in",
-      imgUrl: "/portfolio.png",
-    },
-    {
-      title: "CovidRescue",
-      link: "https://covidrescue.co.in",
-      imgUrl: "/covidrescue.png",
-    },
-    {
-      title: "Algochurn",
-      link: "https://algochurn.com",
-      imgUrl: "/algochurn.png",
-    },
-    {
-      title: "Playground",
-      link: "https://play.placeholdertech.in",
-      imgUrl: "/playground.png",
-    },
-    {
-      title: "Feedmeback",
-      link: "https://feedmeback.vercel.app",
-      imgUrl: "/feedmeback.png",
-    },
-    {
-      title: "Devmedium",
-      link: "https://devmedium.vercel.app",
-      imgUrl: "/devmedium.png",
+      description: "",
+      accloads: [],
+      host: "yt"
     },
   ],
   about: {
