@@ -7,7 +7,7 @@ export const RainbowHighlight = ({ color, children }: { color: any, children: Re
             type="highlight"
             multiline={true}
             padding={[0, 2]}
-            iterations={1}
+            iterations={2}
             animationDuration={animationDuration}
             color={color}
         >

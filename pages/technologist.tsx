@@ -20,68 +20,75 @@ const artist = () => {
                     </p>
                 </div>
             </div>
-            {/* <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
+            <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
                 <div className="pt-10 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
                     <div className="inline-flex flex-col">
-                        <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+                        {/* Social Links */}
+                        <h1 className="bg-green-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
                             Tech Stack
                         </h1>
-                        <div className="flex flex-wrap md:flex-nowrap">
-                            <Image
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                                className="h-10 w-10 md:h-20 md:w-20 mx-4 my-4"
-                                alt=''
-                            />
-                            <Image
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                                className="h-10 w-10 md:h-20 md:w-20 mx-4 my-4"
-                                alt=''
-                            />
-                            <Image
-                                alt=''
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
-                                className="h-10 w-10 md:h-20 md:w-20 mx-4 my-4"
-                            />
-                            <Image
-                                alt=''
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"
-                                className="h-10 w-10 md:h-20 md:w-20 mx-4 my-4"
-                            />
-                            <Image
-                                alt=''
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
-                                className="h-10 w-10 md:h-20 md:w-20 mx-4 my-4"
-                            />
-                            <Image
-                                alt=''
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
-                                className="h-10 w-10 md:h-20 md:w-20 mx-4 my-4"
-                            />
-                            <Image
-                                alt=''
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
-                                className="h-10 w-10 md:h-20 md:w-20 mx-4 my-4"
-                            />
-                            <Image
-                                alt=''
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
-                                className="h-10 w-10 md:h-20 md:w-20 mx-4 my-4"
-                            />
-                            <Image
-                                alt=''
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png"
-                                className="h-10 w-10 md:h-20 md:w-20 mx-4 my-4"
-                            />
-                            <Image
-                                alt=''
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
-                                className="h-10 w-10 md:h-20 md:w-20 mx-4 my-4"
-                            />
+                        <br />
+                        <h1 className="text-xl font-semibold text-gray-700 -mt-2 dark:text-gray-200">
+                            Programming Languages
+                        </h1>
+                        <div className="mt-2 ml-4">
+                            <div className="flex flex-row justify-start items-center ">
+                                <div className="my-4">&rarr;</div>
+                                <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                                    &nbsp; <b>C#</b>
+                                </div>
+                            </div>
+                            <div className="flex flex-row justify-start items-center ">
+                                <div className="my-4">&rarr;</div>
+                                <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                                    &nbsp; <b>VB.NET</b>
+                                </div>
+                            </div>
+                            <div className="flex flex-row justify-start items-center ">
+                                <div className="my-4">&rarr;</div>
+                                <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                                    &nbsp; <b>Go Lang</b>
+                                </div>
+                            </div>
+                            <div className="flex flex-row justify-start items-center ">
+                                <div className="my-4">&rarr;</div>
+                                <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                                    &nbsp; <b>Dart</b>
+                                </div>
+                            </div>
+                        </div>
+                        <h1 className="text-xl font-semibold text-gray-700 -mt-2 dark:text-gray-200">
+                            Frameworks
+                        </h1>
+                        <div className="mt-2 ml-4">
+                            <div className="flex flex-row justify-start items-center ">
+                                <div className="my-4">&rarr;</div>
+                                <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                                    &nbsp; <b>.NET</b>
+                                </div>
+                            </div>
+                            <div className="flex flex-row justify-start items-center ">
+                                <div className="my-4">&rarr;</div>
+                                <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                                    &nbsp; <b>.NET Core</b>
+                                </div>
+                            </div>
+                        </div>
+                        <h1 className="text-lg font-semibold text-gray-700 -mt-2 dark:text-gray-200">
+                            DBMS
+                        </h1>
+                        <div className="mt-2 ml-4">
+                            <div className="flex flex-row justify-start items-center ">
+                                <div className="my-4">&rarr;</div>
+                                <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                                    &nbsp; <b>SQL Server, MySQL</b>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div> */}
-        </ContainerBlock>
+            </div>
+        </ContainerBlock >
     );
 }
 

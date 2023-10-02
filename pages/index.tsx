@@ -1,6 +1,8 @@
 import ContainerBlock from '@/components/ContainerBlock';
 import Hero from '@/components/Hero';
+import { RainbowHighlight } from '@/components/RainbowHighlight';
 import { GetServerSideProps } from 'next';
+import { RoughNotationGroup } from 'react-rough-notation';
 
 const index = () => {
     return (
@@ -12,8 +14,14 @@ const index = () => {
                         className="leading-loose text-3xl md:text-4xl font-semibold  mx-4"
                         style={{ lineHeight: "3rem" }}
                     >
-                        An <span style={{ background: '#F59E0B', padding: '3px 5px' }}>artist</span>, <span style={{ background: '#10B981', padding: '3px 5px' }}>software engineer</span> & a <span style={{ background: '#3B82F6', padding: '3px 5px' }}>technology trainer</span>.
+                        An <RoughNotationGroup show={true}><RainbowHighlight color={'#F59E0B'}><span style={{ padding: '15px' }}>artist</span></RainbowHighlight></RoughNotationGroup>&nbsp;, <RoughNotationGroup show={true}><RainbowHighlight color={'#10B981'}><span style={{ padding: '15px' }}>software engineer</span></RainbowHighlight></RoughNotationGroup> & a <RoughNotationGroup show={true}><RainbowHighlight color={'#3B82F6'}><span style={{ padding: '15px' }}>technology trainer</span></RainbowHighlight></RoughNotationGroup>.
                     </p>
+                    {/* <p
+                        className="leading-loose text-3xl md:text-4xl font-semibold  mx-4"
+                        style={{ lineHeight: "3rem" }}
+                    >
+                        An <span style={{ background: '#F59E0B', padding: '3px 5px' }}>artist</span>, <span style={{ background: '#10B981', padding: '3px 5px' }}>software engineer</span> & a <span style={{ background: '#3B82F6', padding: '3px 5px' }}>technology trainer</span>.
+                    </p> */}
                     <br />
                     <p
                         className="text-lg font-sans text-gray-500 mx-4 dark:text-gray-300"
