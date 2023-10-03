@@ -39,8 +39,10 @@ export default function ContainerBlock({ children, ...customMeta }: { children: 
                 <meta name="twitter:image" content={meta.image} />
                 <link rel="icon" href={meta.image} />
             </Head>
-            <main className=" bg-orange-50 dark:bg-gray-800 w-full">
+            <main className=" dark:bg-gray-800 w-full">
+            {/* bg-orange-50 */}
                 <Navbar />
+                <br />
                 <div>{children}</div>
                 <Footer />
             </main>

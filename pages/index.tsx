@@ -3,12 +3,19 @@ import Hero from '@/components/Hero';
 import { RainbowHighlight } from '@/components/RainbowHighlight';
 import { GetServerSideProps } from 'next';
 import { RoughNotationGroup } from 'react-rough-notation';
-import img from '../images/avatar.png';
+import img from '../images/avatar1.png';
 import Image from 'next/image'
 
 const index = () => {
     return (
         <ContainerBlock>
+            {/* <center> */}
+            <div className="max-w-6xl mx-auto -mt-10 md:-mt-20">
+                <div className="text-container max-w-6xl mx-auto px-20">
+                    <Image src={img} width={60} alt="My photo here" className="h-16 shadow shadow-sm shadow-purple-500 rounded-full rounded-bl-lg" />
+                </div>
+            </div>
+            {/* </center> */}
             <section className="-mt-10 dark:bg-gray-800">
                 <div className="max-w-6xl mx-auto h-60 text-left md:text-left dark:bg-gray-800">
                     <p className="leading-loose shadow-text italic text-xl md:text-3xl font-normal text-gray-700 px-3 md:px-4 dark:text-gray-200 font-mono  mx-1">
@@ -19,7 +26,6 @@ const index = () => {
                     </h1>
                 </div>
             </section>
-            {/* <Hero /> */}
             <div className="bg-[#F1F1F1] -mt-20 dark:bg-gray-900 ">
                 <div className="text-container max-w-6xl mx-auto pt-20">
                     {/* <div className='h-10 md:h-5'></div> */}

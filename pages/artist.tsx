@@ -3,9 +3,16 @@ import { RainbowHighlight } from '@/components/RainbowHighlight';
 import userData from '@/constants/data';
 import { GetServerSideProps } from 'next';
 import { RoughNotationGroup } from 'react-rough-notation';
+import img from '../images/avatar1.png';
+import Image from 'next/image'
 
 const artist = () => (
     <ContainerBlock>
+        <div className="max-w-6xl mx-auto -mt-10 md:-mt-20 px-2 md:px-8">
+            <div className="text-container max-w-6xl mx-auto px-20">
+                <Image src={img} width={60} alt="My photo here" className="h-16 shadow shadow-sm shadow-purple-500 rounded-full rounded-bl-lg" />
+            </div>
+        </div>
         <section className="-mt-10 dark:bg-gray-800">
             <div className="max-w-6xl mx-auto h-60  text-left dark:bg-gray-800">
                 <p className="leading-loose shadow-text italic text-xl md:text-3xl font-normal text-gray-700 px-3 md:px-4 dark:text-gray-200 font-mono  mx-1">
