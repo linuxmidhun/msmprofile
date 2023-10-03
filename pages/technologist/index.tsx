@@ -8,19 +8,19 @@ import { RoughNotationGroup } from 'react-rough-notation';
 const artist = () => {
     return (
         <ContainerBlock>
-            <section className="bg-white -mt-10 dark:bg-gray-800">
-                <div className="max-w-6xl mx-auto h-60 bg-white  text-center md:text-left dark:bg-gray-800">
-                    <p className="leading-loose shadow-text italic text-xl md:text-3xl font-normal text-gray-700 px-5 dark:text-gray-200 font-mono  mx-1">
+            <section className="-mt-10 dark:bg-gray-800">
+                <div className="max-w-6xl mx-auto h-60 text-left dark:bg-gray-800">
+                    <p className="leading-loose shadow-text italic text-xl md:text-3xl font-normal text-gray-700 px-3 md:px-4 dark:text-gray-200 font-mono  mx-1">
                         I&apos;m a
                     </p>
-                    <h1 className=" text-5xl md:text-8xl text-gray-700 dark:text-gray-200 font-bold py-2 px-5 text-center leading-tight md:text-left">
+                    <h1 className=" text-5xl md:text-8xl text-gray-700 dark:text-gray-200 font-bold py-2 px-3 md:px-4 leading-tight text-left">
                         Programmer, Software Engineer &amp; a Mentor.
                     </h1>
                 </div>
             </section>
             <div className="bg-[#F1F1F1] -mt-20 dark:bg-gray-900">
-            <div className="text-container max-w-6xl mx-auto pt-20">
-                <div className='h-10 md:h-5'></div>
+                <div className="text-container max-w-6xl mx-auto pt-20">
+                    <div className='py-7 md:py-0'></div>
                     <p className="text-xl md:text-3xl font-semibold leading-loose mx-4">
                         Over a decade of experience in designing and developing software solutions, mostly for transportation and logistics vertical.
                     </p>
@@ -29,15 +29,17 @@ const artist = () => {
             <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
                 <div className="pt-10 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
                     <div className="col-span-1 md:col-span-2 md:px-5">
-                        <h1 className="text-2xl md:text-4xl font-semibold text-cyan-700 py-0 -mt-2 dark:text-cyan-200">
-                            &#x1F4BB;&nbsp;My Career History
+                        <h1 className="text-2xl md:text-2xl font-semibold text-purple-900 py-0 -mt-2 dark:text-cyan-200">
+                            {/* &#x1F4BB;&nbsp; */}
+                            My Career History
                         </h1>
                         <br />
                         {userData.companies.map((item, index) => {
                             return (
-                                <div key={index} className=" group mb-4 transition duration-200 relative shadow-sm dark:shadow-md shadow-cyan-500/50 dark:shadow-cyan-950/50 rounded-lg  w-full aspect-w-16 aspect-h-9">
-                                    <h1 className="text-lg md:text-xl font-semibold text-gray-700 py-5 px-5 -mt-2 dark:text-gray-200">
-                                        {item.name}&nbsp;&nbsp;<a href={item.url} target='_blank'><svg fill='currentColor' style={{ display: 'inline-block', width: '1em', height: '1em' }}
+                                <div key={index} className=" group mb-4 transition duration-200 shadow-sm dark:shadow-md shadow-purple-500/50 dark:shadow-cyan-950/50 relative rounded-sm  w-full aspect-w-16 aspect-h-9">
+                                     {/*  */}
+                                    <h1 className="text-md font-semibold text-gray-700 py-5 px-5 -mt-2 dark:text-gray-200">
+                                        {item.name}&nbsp;&nbsp;<a href={item.url} target='_blank'><svg fill='currentColor' style={{ display: 'inline-block', marginTop: '-5px', width: '1em', height: '1em' }}
                                             viewBox="0 0 50 50">
                                             <path d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2
 0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4
@@ -49,13 +51,13 @@ const artist = () => {
 2-2v-12c0-0.2 0-0.6-0.2-0.8z"></path>
                                         </svg></a>
                                     </h1>
-                                    <h1 className="text-md md:text-lg font-semibold text-gray-700 py-5 px-5 -mt-10 dark:text-gray-200">
+                                    <h1 className="text-sm font-semibold text-gray-700 py-5 px-5 -mt-10 dark:text-gray-200">
                                         {item.address}
                                     </h1>
                                     <h1 className="text-xs md:text-sm font-mono font-normal text-gray-700 py-5 px-5 -mt-10 dark:text-gray-200">
                                         {item.span}
                                     </h1>
-                                    <h1 className="text-lg md:text-xl font-semibold text-gray-700 py-5 px-5 -mt-10 dark:text-gray-200">
+                                    <h1 className="text-xs font-semibold text-gray-700 py-5 px-5 -mt-10 dark:text-gray-200">
                                         {item.position}
                                     </h1>
                                     <div className='px-5 md:px-3'>
@@ -78,13 +80,13 @@ const artist = () => {
                     </div>
                     <div className="inline-flex flex-col -mt-20 md:-mt-1">
                         {/* Social Links */}
-                        <RoughNotationGroup show={true}>
-                            <RainbowHighlight color={'#84CC16'}>
-                                <h1 className="font-semibold text-lg dark:text-gray-100" style={{ padding: '5px 10px', opacity: 0.8, color: 'white', background: 'purple' }}>
-                                    The tech I&apos;ve been working with
-                                </h1>
-                            </RainbowHighlight>
-                        </RoughNotationGroup>
+                        {/* <RoughNotationGroup show={true}>
+                            <RainbowHighlight color={'#84CC16'}> */}
+                        <h1 className="font-semibold text-lg dark:text-gray-100" style={{ padding: '5px 10px', opacity: 1, color: 'white', background: 'purple' }}>
+                            I&apos;ve been working with
+                        </h1>
+                        {/* </RainbowHighlight>
+                        </RoughNotationGroup> */}
                         <br />
                         <h1 className="text-sm font-semibold text-gray-700 -mt-2 dark:text-gray-200">
                             Programming Languages

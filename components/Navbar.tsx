@@ -16,17 +16,17 @@ export default function Navbar() {
     }, []);
 
     return (
-        <div className="max-w-6xl  mx-auto px-10 py-5 md:py-20">
+        <div className="max-w-6xl mx-auto px-5 md:px-5 py-5 md:py-20 border-y-5">
             <div className="flex  md:flex-row justify-between items-center">
                 <div className="flex flex-col">
                     <Link href="/">
-                        <RoughNotationGroup show={true}>
-                            <RainbowHighlight color={'#84CC16'}>
-                                <h1 className="font-semibold text-xl md:text-3xl dark:text-gray-100" style={{ padding: '5px 10px', opacity: 0.8, color: 'white', background: 'purple' }}>
-                                    {userData.name}
-                                </h1>
-                            </RainbowHighlight>
-                        </RoughNotationGroup>
+                        {/* <RoughNotationGroup show={true}>
+                            <RainbowHighlight color={'#84CC16'}> */}
+                        <h1 className="font-bold text-2xl md:text-4xl dark:text-gray-100" style={{ padding: '5px 10px', opacity: 1, color: 'white', background: 'purple' }}>
+                            {userData.name}
+                        </h1>
+                        {/* </RainbowHighlight>
+                        </RoughNotationGroup> */}
                         <p className="text-base font-light text-gray-500 dark:text-gray-300">
                             {userData.designation}
                         </p>
@@ -36,12 +36,12 @@ export default function Navbar() {
                     <Link
                         href="/"
                         className={`text-2xl  ${router.asPath === "/"
-                            ? "text-gray-800 font-bold dark:text-gray-400"
-                            : "text-gray-600 dark:text-gray-300 font-normal "
+                            ? "text-purple-800 underline decoration-dashed dark:text-gray-400"
+                            : "text-gray-600 dark:text-gray-300"
                             }`}
                     >
-                        Home{" "}
-                        {router.asPath === "/" && (
+                        home
+                        {/* {router.asPath === "/" && (
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="16"
@@ -55,17 +55,17 @@ export default function Navbar() {
                                     d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
                                 />
                             </svg>
-                        )}
+                        )} */}
                     </Link>
                     <Link
                         href="/artist"
                         className={`text-2xl  ${router.asPath === "/artist"
-                            ? "text-gray-800 font-bold dark:text-gray-400"
-                            : "text-gray-600 dark:text-gray-300 font-normal "
+                            ? "text-purple-800 underline decoration-dashed dark:text-gray-400"
+                            : "text-gray-600 dark:text-gray-300"
                             }`}
                     >
-                        Artist{" "}
-                        {router.asPath === "/artist" && (
+                        artist
+                        {/* {router.asPath === "/artist" && (
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="16"
@@ -79,17 +79,17 @@ export default function Navbar() {
                                     d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
                                 />
                             </svg>
-                        )}
+                        )} */}
                     </Link>
                     <Link
                         href="/technologist"
                         className={`text-2xl  ${router.asPath === "/technologist"
-                            ? "text-gray-800 font-bold dark:text-gray-400"
-                            : "text-gray-600 dark:text-gray-300 font-normal "
+                            ? "text-purple-800 underline decoration-dashed dark:text-gray-400"
+                            : "text-gray-600 dark:text-gray-300"
                             }`}
                     >
-                        Technologist{" "}
-                        {router.asPath === "/technologist" && (
+                        technologist
+                        {/* {router.asPath === "/technologist" && (
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="16"
@@ -103,7 +103,7 @@ export default function Navbar() {
                                     d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
                                 />
                             </svg>
-                        )}
+                        )} */}
                     </Link>
                     {/* <Link
                         href="/contact"
@@ -131,7 +131,7 @@ export default function Navbar() {
                     </Link> */}
                 </div>
 
-                <div className="space-x-1 flex flex-row items-center">
+                <div className="hidden space-x-1 flex flex-row items-center">
                     <button
                         aria-label="Toggle Dark Mode"
                         type="button"
@@ -172,32 +172,32 @@ export default function Navbar() {
                 <Link
                     href="/"
                     className={`text-base  ${router.asPath === "/"
-                        ? "text-gray-800 font-bold dark:text-gray-400"
-                        : "text-gray-600 dark:text-gray-300 font-normal "
+                        ? "text-purple-800 underline decoration-dashed dark:text-gray-400"
+                        : "text-gray-600 dark:text-gray-300"
                         }`}
                 >
-                    Home
-                    {router.asPath === "/" && (<>{" "}*</>)}
+                    home
+                    {/* {router.asPath === "/" && (<>{" "}*</>)} */}
                 </Link>
                 <Link
                     href="/artist"
                     className={`text-base  ${router.asPath === "/artist"
-                        ? "text-gray-800 font-bold dark:text-gray-400"
-                        : "text-gray-600 dark:text-gray-300 font-normal "
+                        ? "text-purple-800 underline decoration-dashed dark:text-gray-400"
+                        : "text-gray-600 dark:text-gray-300"
                         }`}
                 >
-                    Artist
-                    {router.asPath === "/artist" && (<>{" "}*</>)}
+                    artist
+                    {/* {router.asPath === "/artist" && (<>{" "}*</>)} */}
                 </Link>
                 <Link
                     href="/technologist"
                     className={`text-base  ${router.asPath === "/technologist"
-                        ? "text-gray-800 font-bold dark:text-gray-400"
-                        : "text-gray-600 dark:text-gray-300 font-normal "
+                        ? "text-purple-800 underline decoration-dashed dark:text-gray-400"
+                        : "text-gray-600 dark:text-gray-300"
                         }`}
                 >
-                    Technologist
-                    {router.asPath === "/technologist" && (<>{" "}*</>)}
+                    technologist
+                    {/* {router.asPath === "/technologist" && (<>{" "}*</>)} */}
                 </Link>
                 {/* <Link
                     href="/contact"
@@ -211,7 +211,7 @@ export default function Navbar() {
                 </Link> */}
             </div>
             <br />
-            {/* <div className="h-0.5 w-full bg-gray-100 dark:bg-gray-700"></div> */}
+            {/* <div className="block md:hidden h-0.5 w-full bg-purple-300 dark:bg-gray-700"></div> */}
         </div>
     );
 }
