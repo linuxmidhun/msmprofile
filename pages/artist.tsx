@@ -19,7 +19,7 @@ const artist = () => (
                     I&apos;m a
                 </p>
                 <h1 className=" text-5xl md:text-8xl text-gray-700 dark:text-gray-200 font-bold py-2 px-3 md:px-4 leading-tight text-left">
-                    Lyricist, Screenwriter, Actor  &amp; a Director.
+                    Screenwriter, Lyricist,  Actor  &amp; a Director.
                 </h1>
             </div>
         </section>
