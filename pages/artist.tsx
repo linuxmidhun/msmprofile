@@ -1,6 +1,8 @@
 import ContainerBlock from '@/components/ContainerBlock';
+import { RainbowHighlight } from '@/components/RainbowHighlight';
 import userData from '@/constants/data';
 import { GetServerSideProps } from 'next';
+import { RoughNotationGroup } from 'react-rough-notation';
 
 const artist = () => (
     <ContainerBlock>
@@ -26,57 +28,60 @@ const artist = () => (
                 {/* Social Buttons */}
                 <div className="inline-flex flex-col">
                     {/* Social Links */}
-                    <h1 className="text-lg font-semibold text-gray-700 -mt-2 dark:text-gray-200">
-                        As an Artist I&apos;ve,
-                    </h1>
+                    <RoughNotationGroup show={true}>
+                        <RainbowHighlight color={'#84CC16'}>
+                            <h1 className="font-semibold text-lg dark:text-gray-100" style={{ padding: '5px 10px', opacity: 0.8, color: 'white', background: 'purple' }}>
+                                As an Artist I&apos;ve,
+                            </h1>
+                        </RainbowHighlight>
+                    </RoughNotationGroup>
                     <div className="mt-4 ml-4">
                         <div className="flex flex-row justify-start items-center ">
-                            <div className="my-4">&rarr;</div>&nbsp;&nbsp;
-                            <div className="text-sm text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                                attended the acting workshops from <a href='https://www.thehindu.com/features/metroplus/the-science-behind-the-art/article8590461.ece' target='_blank' className='underline decoration-dotted'>ACTLAB - Actor&apos;s Training Laboratory, Cochin.</a>
+                            <div className="my-4 text-gray-500  dark:text-gray-300">&#x2584;</div>&nbsp;&nbsp;
+                            <div className="text-sm text-gray-500 font-semibold relative overflow-hidden dark:text-gray-300">
+                                attended the acting workshops from <a href='https://www.thehindu.com/features/metroplus/the-science-behind-the-art/article8590461.ece' target='_blank' className='underline decoration-dotted'>ACTLAB - Actor&apos;s Training Laboratory, Cochin. <svg fill='currentColor' style={{ display: 'inline-block', width: '1em', height: '1em' }}
+                                    viewBox="0 0 50 50">
+                                    <path d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2
+0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4
+0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6
+6-6v-12c0-1.2-0.8-2-2-2z"></path>
+                                    <path d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2
+0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8
+0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8
+2-2v-12c0-0.2 0-0.6-0.2-0.8z"></path>
+                                </svg></a>
                             </div>
                         </div>
                         <br />
                         <div className="flex flex-row justify-start items-center ">
-                            <div className="my-4">&rarr;</div>&nbsp;&nbsp;
-                            <div className="text-sm text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                            <div className="my-4 text-gray-500  dark:text-gray-300">&#x2584;</div>&nbsp;&nbsp;
+                            <div className="text-sm text-gray-500 font-semibold relative overflow-hidden dark:text-gray-300">
                                 worked as an actor in a Malayalam feature film, many Malayalam short films and some Malayalam web serieses.
                             </div>
                         </div>
                         <br />
                         <div className="flex flex-row justify-start items-center ">
-                            <div className="my-4">&rarr;</div>&nbsp;&nbsp;
-                            <div className="text-sm text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                            <div className="my-4 text-gray-500  dark:text-gray-300">&#x2584;</div>&nbsp;&nbsp;
+                            <div className="text-sm text-gray-500 font-semibold relative overflow-hidden dark:text-gray-300">
                                 associated in the direction team for some Malayalam music videos and short films.
                             </div>
                         </div>
                         <br />
                         <div className="flex flex-row justify-start items-center ">
-                            <div className="my-4">&rarr;</div>&nbsp;&nbsp;
-                            <div className="text-sm text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                            <div className="my-4 text-gray-500  dark:text-gray-300">&#x2584;</div>&nbsp;&nbsp;
+                            <div className="text-sm text-gray-500 font-semibold relative overflow-hidden dark:text-gray-300">
                                 wrote screenplays for some Malayalam short films.
                             </div>
                         </div>
                         <br />
                         <div className="flex flex-row justify-start items-center ">
-                            <div className="my-4">&rarr;</div>&nbsp;&nbsp;
-                            <div className="text-sm text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                            <div className="my-4 text-gray-500  dark:text-gray-300">&#x2584;</div>&nbsp;&nbsp;
+                            <div className="text-sm text-gray-500 font-semibold relative overflow-hidden dark:text-gray-300">
                                 written and directed a couple of Malayalam short films.
                             </div>
                         </div>
                         <br />
                     </div>
-                    {/* <h1 className="text-xl font-semibold text-gray-700 -mt-2 dark:text-gray-200">
-                        Achievements
-                    </h1>
-                    <div className="mt-4 ml-4">
-                        <div className="flex flex-row justify-start items-center ">
-                            <div className="my-4">&rarr;</div>&nbsp;&nbsp;
-                            <div className="text-md text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                                My short film directorial debut <a href='https://youtu.be/zPhGjOomcQk?si=LwxIU3cioUd_2PIP' target='_blank' className='underline decoration-dotted'>&quot;The Outsider&quot;</a> was selected as an official entry for <a href='https://www.oneearthawards.com/' target='_blank' className='underline decoration-dotted'>&quot;One Earth Awards - 2022&quot;.</a>
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
                 {/* <div className="h-1 w-full -mt-10 bg-white md:hidden dark:bg-gray-700"></div> */}
                 <div className="col-span-1 md:col-span-2">
@@ -91,8 +96,28 @@ const artist = () => (
                 </div>
                 <div className="col-span-1 md:col-span-3 items-center -mt-20">
                     <div className="h-0.5 w-full mt-2 bg-white dark:bg-gray-700"></div>
-                    <h1 className="text-md md:text-xl font-semibold text-gray-700 py-5 -mt-2 md:-mt-2 dark:text-gray-200">
-                        &#127942; &nbsp; My debut short film directorial <a href='https://youtu.be/zPhGjOomcQk?si=LwxIU3cioUd_2PIP' target='_blank' className='underline decoration-dotted'>&quot;The Outsider&quot;</a> was selected as an official entry for <a href='https://www.oneearthawards.com/' target='_blank' className='underline decoration-dotted'>&quot;One Earth Awards&quot;</a> in 2022.
+                    <h1 className="text-md md:text-xl font-semibold text-gray-700 py-5 px-5 -mt-2 md:-mt-2 dark:text-gray-200">
+                        &#127942; <br />My debut short film directorial <a href='https://youtu.be/zPhGjOomcQk?si=LwxIU3cioUd_2PIP' target='_blank' className='underline decoration-dotted'>&quot;The Outsider&quot;&nbsp;<svg fill='currentColor' style={{ display: 'inline-block', width: '1em', height: '1em' }}
+                            viewBox="0 0 50 50">
+                            <path d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2
+0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4
+0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6
+6-6v-12c0-1.2-0.8-2-2-2z"></path>
+                            <path d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2
+0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8
+0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8
+2-2v-12c0-0.2 0-0.6-0.2-0.8z"></path>
+                        </svg></a> was selected as an official entry for <a href='https://www.oneearthawards.com/' target='_blank' className='underline decoration-dotted'>&quot;One Earth Awards&quot;&nbsp;<svg fill='currentColor' style={{ display: 'inline-block', width: '1em', height: '1em' }}
+                            viewBox="0 0 50 50">
+                            <path d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2
+0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4
+0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6
+6-6v-12c0-1.2-0.8-2-2-2z"></path>
+                            <path d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2
+0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8
+0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8
+2-2v-12c0-0.2 0-0.6-0.2-0.8z"></path>
+                        </svg></a> in 2022.
                     </h1>
                     <div className="h-0.5 w-full mt-2 bg-white dark:bg-gray-700"></div>
                 </div>
@@ -106,7 +131,7 @@ const artist = () => (
                         {userData.movies.map((item, index) => {
                             return (
                                 <a key={index} href={'https://youtube.com/watch?v=' + item.url} target='_blank'>
-                                    <div className=" group mb-4 transition duration-200 relative  shadow-md  shadow-cyan-500/50 dark:shadow-blue-900/50 rounded-xl border border-purple-200 dark:border-gray-700  w-full aspect-w-16 aspect-h-9">
+                                    <div className=" group mb-4 transition duration-200 relative  shadow-md  shadow-cyan-500/50 dark:shadow-cyan-950/50 rounded-xl border border-purple-200 dark:border-gray-700  w-full aspect-w-16 aspect-h-9">
                                         {/* */}
                                         <div className='h-56 md:h-76 rounded-tl-xl rounded-tr-xl'>
                                             <img className='h6 md:h-76 rounded-tl-xl rounded-tr-xl' src={'https://img.youtube.com/vi/' + item.url + '/0.jpg'} alt={item.title ?? ""} style={{ width: '100%', height: '100%' }} />

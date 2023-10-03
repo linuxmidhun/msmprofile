@@ -27,7 +27,17 @@ const index = () => {
                         className="text-lg font-sans text-gray-500 mx-4 dark:text-gray-300"
                         style={{ lineHeight: "1.5rem" }}
                     >
-                        <span className='text-3xl font-serif italic font-black'>For</span> more than a decade I was a part the <a href='https://en.wikipedia.org/wiki/Information_technology' className='underline decoration-dotted' target='_blank'>Information Technology Industry</a> as a software engineer and programmer. When in the job, I  was privileged being part of  many path-breaking software solutions which helped the general public directly or indirectly. Most of those software solutions were solving travel and transportation problems.
+                        <span className='text-3xl font-serif italic font-black'>For</span> more than a decade I was a part the <a href='https://en.wikipedia.org/wiki/Information_technology' className='underline decoration-dotted' target='_blank'>Information Technology Industry&nbsp;<svg fill='currentColor' style={{ display: 'inline-block', width: '1em', height: '1em' }}
+                            viewBox="0 0 50 50">
+                            <path d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2
+0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4
+0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6
+6-6v-12c0-1.2-0.8-2-2-2z"></path>
+                            <path d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2
+0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8
+0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8
+2-2v-12c0-0.2 0-0.6-0.2-0.8z"></path>
+                        </svg></a> as a software engineer and programmer. When in the job, I  was privileged being part of  many path-breaking software solutions which helped the general public directly or indirectly. Most of those software solutions were solving travel and transportation problems.
                     </p>
                     <br />
                     <p

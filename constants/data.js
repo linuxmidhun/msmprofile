@@ -115,6 +115,90 @@ const userData = {
       host: "yt"
     },
   ],
+  companies: [
+    {
+      name: "CONVOLVE TECHNOLOGIES",
+      url: "https://in.linkedin.com/company/convolve-technologies",
+      address: "Ernakulam, Kerala.",
+      span: "DEC 2018 – JUN 2020.",
+      position: "SENIOR CONSULTANT (Contract).",
+      roles: [
+        "ARCHITECTING end-to-end software solutions based on client requirements.",
+        "TEAM MANAGEMENT and responsible for overall delivery of the software project.",
+        "COST ANALYSIS and quoting for the development requirements.",
+        "DEVELOPMENT efforts.",
+      ]
+    },
+    {
+      name: "NEUDESIC LLC",
+      url: "https://www.neudesic.com/",
+      address: "Ernakulam, Kerala.",
+      span: "DEC 2018 – JUN 2020.",
+      position: "SENIOR CONSULTANT.",
+      roles: [
+        "COLLECTING and analyzing requirements from clients to define the work schedule and technology definitions.",
+        "DESIGNING and DEVELOPING different aspects of features in the requested application software.",
+      ]
+    },
+    {
+      name: "ROUTEMATIC",
+      url: "https://www.routematic.com/",
+      address: "Bengaluru, Karnataka.",
+      span: "NOV 2015 – AUG 2018.",
+      position: "PRODUCT ENGINEER.",
+      roles: [
+        "DEVELOPING web applications, Web APIs and Microservices using C#, ASP.NET MVC.",
+        "SUPPORTING releases and DevOps.",
+      ]
+    },
+    {
+      name: "F6 ANIMATIONS",
+      url: "",
+      address: "Ernakulam, Kerala.",
+      span: "SEP 2014 – NOV 2015.",
+      position: "TECHNICAL LEAD.",
+      roles: [
+        "DESIGNING and developing small scale custom applications.",
+        "SUPPORTING releases and DevOps.",
+        "LEADING a small team of developers.",
+      ]
+    },
+    {
+      name: "ISLET SYSTEMS",
+      url: "https://www.isletsystems.com/",
+      address: "Ernakulam, Kerala.",
+      span: "AUG 2014 – SEP 2014.",
+      position: "Sr. SOFTWARE ENGINEER.",
+      roles: [
+        "DESIGNING and developing web application using C# and ASP.NET MVC.",
+        "TRAINING the developer’s team in ASP.NET MVC and C#.",
+      ]
+    },
+    {
+      name: "ISLET SYSTEMS",
+      url: "https://www.isletsystems.com/",
+      address: "Ernakulam, Kerala.",
+      span: "JUN 2011 – JUN 2014.",
+      position: "Sr. SOFTWARE ENGINEER.",
+      roles: [
+        "ANALYZING customer requirements for custom web/desktop applications.",
+        "DEVELOPING web applications using C#/VB.NET and ASP.NET/ASP.NET MVC.",
+        "DEVELOPING desktop applications using Windows Forms/WPF.",
+        "DEVELOPING Windows mobile applications using Silverlight.",
+      ]
+    },
+    {
+      name: "MVO TECHNOLOGIES",
+      url: "https://www.justdial.com/jdmart/Ernakulam/Mvo-Technologies-Services-Pvt-Ltd-closed-Closed-Down-Piravom/0484PX484-X484-140309140853-S2A2_BZDET/catalogue?bc=0&flow=&pid=&type=",
+      address: "Ernakulam, Kerala.",
+      span: "APR 2010 – FEB 2011.",
+      position: "JUNIOR PROGRAMMER.",
+      roles: [
+        "DEVELOPING Web applications using C# and ASP.NET.",
+        "DEVELOPING desktop applications using Windows Forms and C#.",
+      ]
+    },
+  ],
   about: {
     title:
       "I'm a software developer that loves building products and web applications that impact millions of lives",

@@ -22,8 +22,8 @@ a {
 }
 
 .home-topper {
-  background-color: #111827;
-  background-image: url('../images/studio.png');
+  /* background-color: #111827; */
+  /* background-image: url('../images/studio.png'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -33,6 +33,7 @@ a {
 
 .shadow-text {
   text-shadow: 10px 12px 5px rgba(35, 29, 54, 0.8);
+  text-shadow: 2px 2px 3px rgba(67, 65, 72, 0.8);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   background-clip: text;
