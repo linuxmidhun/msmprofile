@@ -106,7 +106,7 @@ const artist = () => (
                         {userData.movies.map((item, index) => {
                             return (
                                 <a key={index} href={'https://youtube.com/watch?v=' + item.url} target='_blank'>
-                                    <div className=" group mb-4 transition duration-200 relative  shadow-2xl  shadow-cyan-500/50 dark:shadow-blue-900/50 rounded-xl border border-purple-200 dark:border-gray-700  w-full aspect-w-16 aspect-h-9">
+                                    <div className=" group mb-4 transition duration-200 relative  shadow-md  shadow-cyan-500/50 dark:shadow-blue-900/50 rounded-xl border border-purple-200 dark:border-gray-700  w-full aspect-w-16 aspect-h-9">
                                         {/* */}
                                         <div className='h-56 md:h-76 rounded-tl-xl rounded-tr-xl'>
                                             <img className='h6 md:h-76 rounded-tl-xl rounded-tr-xl' src={'https://img.youtube.com/vi/' + item.url + '/0.jpg'} alt={item.title ?? ""} style={{ width: '100%', height: '100%' }} />
