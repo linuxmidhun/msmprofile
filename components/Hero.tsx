@@ -12,7 +12,7 @@ export default function Hero() {
                 <div className="inline-flex flex-col" style={{ zIndex: 2000 }}>
                     <div className="basis mx-auto text-center md:text-left lg:px-2">
                         <div>
-                            <p className="leading-loose shadow-text italic text-xl md:text-3xl font-normal text-cyan-700  dark:text-gray-200 font-mono  mx-1">
+                            <p className="leading-loose shadow-text italic text-xl md:text-3xl font-normal text-gray-700  dark:text-gray-200 font-mono  mx-1">
                                 Hello there, I&apos;m
                             </p>
                             <h1 className="text-6xl shadow-text drop-shadow-md md:text-9xl font-bold text-cyan-700  dark:text-gray-200  my-2">

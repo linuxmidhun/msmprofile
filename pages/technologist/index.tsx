@@ -9,15 +9,18 @@ const artist = () => {
     return (
         <ContainerBlock>
             <section className="bg-white -mt-10 dark:bg-gray-800">
-                <div className="max-w-6xl mx-auto h-60 bg-white dark:bg-gray-800">
-                    <h1 className=" text-5xl md:text-8xl text-gray-700 dark:text-gray-200 font-bold py-10 px-5 text-center leading-tight md:text-left">
-                        Developer, Software Engineer, Technology Trainer.
+                <div className="max-w-6xl mx-auto h-60 bg-white  text-center md:text-left dark:bg-gray-800">
+                    <p className="leading-loose shadow-text italic text-xl md:text-3xl font-normal text-gray-700 px-5 dark:text-gray-200 font-mono  mx-1">
+                        I&apos;m a
+                    </p>
+                    <h1 className=" text-5xl md:text-8xl text-gray-700 dark:text-gray-200 font-bold py-2 px-5 text-center leading-tight md:text-left">
+                        Programmer, Software Engineer &amp; a Mentor.
                     </h1>
                 </div>
             </section>
-            <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
-                <div className="text-container max-w-6xl mx-auto pt-20">
-                    <div className='h-20'></div>
+            <div className="bg-[#F1F1F1] -mt-20 dark:bg-gray-900">
+            <div className="text-container max-w-6xl mx-auto pt-20">
+                <div className='h-10 md:h-5'></div>
                     <p className="text-xl md:text-3xl font-semibold leading-loose mx-4">
                         Over a decade of experience in designing and developing software solutions, mostly for transportation and logistics vertical.
                     </p>

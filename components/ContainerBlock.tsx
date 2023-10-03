@@ -3,12 +3,12 @@ import { useRouter } from "next/router";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
-export default function ContainerBlock ({ children, ...customMeta }: { children: React.ReactNode }) {
+export default function ContainerBlock({ children, ...customMeta }: { children: React.ReactNode }) {
     const router = useRouter();
     const meta = {
         title: "Midhun S Madhavan - Artist, Software Engineer",
         description: "Working for a better future everyone.",
-        image: "../images/chieroscuro.png",
+        image: "../images/avatar.png",
         type: "website",
         ...customMeta,
     };
@@ -37,6 +37,7 @@ export default function ContainerBlock ({ children, ...customMeta }: { children:
                 <meta name="twitter:title" content={meta.title} />
                 <meta name="twitter:description" content={meta.description} />
                 <meta name="twitter:image" content={meta.image} />
+                <link rel="icon" href={meta.image} />
             </Head>
             <main className="dark:bg-gray-800 w-full">
                 <Navbar />

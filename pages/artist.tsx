@@ -7,9 +7,12 @@ import { RoughNotationGroup } from 'react-rough-notation';
 const artist = () => (
     <ContainerBlock>
         <section className="bg-white -mt-10 dark:bg-gray-800">
-            <div className="max-w-6xl mx-auto h-60 bg-white dark:bg-gray-800">
-                <h1 className=" text-5xl md:text-8xl text-gray-700 dark:text-gray-200 font-bold py-10 px-5 text-center leading-tight md:text-left">
-                    Actor, Screenwriter, Lyricist, Director.
+            <div className="max-w-6xl mx-auto h-60 bg-white  text-center md:text-left dark:bg-gray-800">
+                <p className="leading-loose shadow-text italic text-xl md:text-3xl font-normal text-gray-700 px-5 dark:text-gray-200 font-mono  mx-1">
+                    I&apos;m a
+                </p>
+                <h1 className=" text-5xl md:text-8xl text-gray-700 dark:text-gray-200 font-bold py-2 px-5 text-center leading-tight md:text-left">
+                    Lyricist, Screenwriter, Actor  &amp; a Director.
                 </h1>
             </div>
         </section>

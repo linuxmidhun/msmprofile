@@ -7,15 +7,36 @@ import { RoughNotationGroup } from 'react-rough-notation';
 const index = () => {
     return (
         <ContainerBlock>
-            <Hero />
-            <div className="bg-[#F1F1F1] -mt-10 dark:bg-gray-900">
+            <section className="bg-white -mt-10 dark:bg-gray-800">
+                <div className="max-w-6xl mx-auto h-60 bg-white text-center md:text-left dark:bg-gray-800">
+                    <p className="leading-loose shadow-text italic text-xl md:text-3xl font-normal text-gray-700 px-5 dark:text-gray-200 font-mono  mx-1">
+                        I&apos;m
+                    </p>
+                    <h1 className=" text-5xl md:text-8xl text-gray-700 dark:text-gray-200 font-bold py-2 px-5 text-center leading-tight md:text-left">
+                        Midhun Soudamini Madhavan.
+                    </h1>
+                </div>
+            </section>
+            {/* <Hero /> */}
+            <div className="bg-[#F1F1F1] -mt-20 dark:bg-gray-900">
                 <div className="text-container max-w-6xl mx-auto pt-20">
+                    <div className='h-10 md:h-5'></div>
                     <p
+                        className="text-xl md:text-3xl font-semibold leading-loose  mx-4"
+                    >
+                        An artist, software engineer &amp; a technology trainer.
+                    </p>
+                </div>
+            </div>
+            <div className="bg-[#F1F1F1] -mt-20 dark:bg-gray-900">
+                <div className="text-container max-w-6xl mx-auto pt-20">
+                    {/* <br /><br /> */}
+                    {/* <p
                         className="leading-loose text-3xl md:text-4xl font-semibold  mx-4"
                         style={{ lineHeight: "3rem" }}
                     >
-                        An <RoughNotationGroup show={true}><RainbowHighlight color={'#F59E0B'}><span style={{ padding: '15px' }}>artist</span></RainbowHighlight></RoughNotationGroup>&nbsp;, <RoughNotationGroup show={true}><RainbowHighlight color={'#10B981'}><span style={{ padding: '15px' }}>software engineer</span></RainbowHighlight></RoughNotationGroup> & a <RoughNotationGroup show={true}><RainbowHighlight color={'#3B82F6'}><span style={{ padding: '15px' }}>technology trainer</span></RainbowHighlight></RoughNotationGroup>.
-                    </p>
+                        An <RoughNotationGroup show={true}><RainbowHighlight color={'#F59E0B'}><span style={{ padding: '15px' }}>artist</span></RainbowHighlight></RoughNotationGroup>&nbsp;, <RoughNotationGroup show={true}><RainbowHighlight color={'#10B981'}><span style={{ padding: '15px' }}>software engineer</span></RainbowHighlight></RoughNotationGroup> &amp; a <RoughNotationGroup show={true}><RainbowHighlight color={'#3B82F6'}><span style={{ padding: '15px' }}>technology trainer</span></RainbowHighlight></RoughNotationGroup>.
+                    </p> */}
                     {/* <p
                         className="leading-loose text-3xl md:text-4xl font-semibold  mx-4"
                         style={{ lineHeight: "3rem" }}
