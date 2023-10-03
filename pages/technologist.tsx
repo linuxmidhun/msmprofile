@@ -58,7 +58,7 @@ const artist = () => {
                                     <div className='px-5 md:px-3'>
                                         {item.roles.map((i, id) => {
                                             return (
-                                                <div className="flex flex-row justify-start items-center">
+                                                <div key={id} className="flex flex-row justify-start items-center">
                                                     <div className="my-4 text-gray-500  dark:text-gray-300">&#x1F4CC;</div>&nbsp;&nbsp;
                                                     <div className="text-sm text-gray-500  py-1 md:py-0 font-semibold relative overflow-hidden dark:text-gray-300">
                                                         {i}
