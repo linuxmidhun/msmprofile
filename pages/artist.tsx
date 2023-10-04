@@ -25,7 +25,7 @@ const artist = () => (
         </section>
         <div className="bg-[#F1F1F1] -mt-20 dark:bg-gray-900">
             <div className="text-container max-w-6xl mx-auto pt-20">
-                <div className='py-7 md:py-0'></div>
+                {/* <div className='py-7 md:py-0'></div> */}
                 <p
                     className="text-xl md:text-3xl font-semibold leading-loose  mx-4"
                 >
