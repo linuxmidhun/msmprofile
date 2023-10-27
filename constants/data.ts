@@ -2,7 +2,7 @@ const userData = {
   githubUsername: "linuxmidhun",
   name: "Midhun S Madhavan",
   designation: "",
-  avatarUrl: "../images/av.png",
+  avatarUrl: "../images/avatar1.png",
   email: "midhunmadhavan.se@gmail.com",
   phone: "+91 9526599478",
   address: "Ernakulam, Kerala, India.",
@@ -13,7 +13,8 @@ const userData = {
       contentType: "Short Film Promo",
       activity: "Lyricist",
       description: "", accloads: [],
-      host: "yt"
+      host: "yt",
+      notes: "Credited as MIDHUN MADHAVAN",
     },
     {
       url: "4M6QQOxueFs",

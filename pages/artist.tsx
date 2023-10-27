@@ -177,7 +177,10 @@ const artist = () => (
                                             </span><br />
                                             <span className="text-sm font-normal text-gray-700 -mt-2 dark:text-gray-200">
                                                 {item.activity}
-                                            </span>
+                                            </span><br />
+                                            <span className="text-sm font-normal text-gray-700 -mt-2 dark:text-gray-200">
+                                                {item.notes ?? ""}
+                                            </span><br />
                                             {/* <div className="h-0.5 w-full bg-white dark:bg-gray-700"></div> */}
                                         </div>
                                     </div>
