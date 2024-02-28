@@ -33,40 +33,43 @@ const artist = () => {
                 </div>
             </div>
             <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
-                <div className="pt-10 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
-                    <div className="col-span-1 md:col-span-2 md:px-5">
+            {/* grid grid-cols-1 md:grid-cols-3 */}
+                <div className="pt-10  max-w-6xl mx-auto gap-y-20 gap-x-20">
+                {/* col-span-1 md:col-span-2 md:px-5 */}
+                    <div className="">
                         <h1 className="text-2xl md:text-2xl font-semibold text-purple-900 py-0 -mt-2 dark:text-cyan-200">
                             {/* &#x1F4BB;&nbsp; */}
                             My Career History
                         </h1>
                         <br />
-                        {userData.companies.map((item, index) => {
-                            return (
-                                <div key={index} className=" group mb-4 transition duration-200 shadow-sm dark:shadow-md shadow-purple-500/50 dark:shadow-cyan-950/50 relative rounded-sm  w-full aspect-w-16 aspect-h-9">
-                                    {/*  */}
-                                    <h1 className="text-md font-semibold text-gray-700 py-5 px-5 -mt-2 dark:text-gray-200">
-                                        {item.name}&nbsp;&nbsp;<a href={item.url} target='_blank'><svg fill='currentColor' style={{ display: 'inline-block', marginTop: '-5px', width: '1em', height: '1em' }}
-                                            viewBox="0 0 50 50">
-                                            <path d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2
+                        <div className='grid lg:grid-cols-2 gap-5'>
+                            {userData.companies.map((item, index) => {
+                                return (
+                                    <div key={index} className=" group mb-4 transition duration-200 shadow-sm dark:shadow-md shadow-purple-500/50 dark:shadow-cyan-950/50 relative rounded-sm  w-full aspect-w-16 aspect-h-9">
+                                        {/*  */}
+                                        <h1 className="text-md font-semibold text-gray-700 py-5 px-5 -mt-2 dark:text-gray-200">
+                                            {item.name}&nbsp;&nbsp;<a href={item.url} target='_blank'><svg fill='currentColor' style={{ display: 'inline-block', marginTop: '-5px', width: '1em', height: '1em' }}
+                                                viewBox="0 0 50 50">
+                                                <path d="M36 24c-1.2 0-2 0.8-2 2v12c0 1.2-0.8 2-2 2h-22c-1.2
 0-2-0.8-2-2v-22c0-1.2 0.8-2 2-2h12c1.2 0 2-0.8 2-2s-0.8-2-2-2h-12c-3.4
 0-6 2.6-6 6v22c0 3.4 2.6 6 6 6h22c3.4 0 6-2.6
 6-6v-12c0-1.2-0.8-2-2-2z"></path>
-                                            <path d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2
+                                                <path d="M43.8 5.2c-0.2-0.4-0.6-0.8-1-1-0.2-0.2-0.6-0.2-0.8-0.2h-12c-1.2
 0-2 0.8-2 2s0.8 2 2 2h7.2l-18.6 18.6c-0.8 0.8-0.8 2 0 2.8 0.4 0.4 0.8
 0.6 1.4 0.6s1-0.2 1.4-0.6l18.6-18.6v7.2c0 1.2 0.8 2 2 2s2-0.8
 2-2v-12c0-0.2 0-0.6-0.2-0.8z"></path>
-                                        </svg></a>
-                                    </h1>
-                                    <h1 className="text-sm font-semibold text-gray-700 py-5 px-5 -mt-10 dark:text-gray-200">
-                                        {item.address}
-                                    </h1>
-                                    <h1 className="text-xs md:text-sm font-mono font-normal text-gray-700 py-5 px-5 -mt-10 dark:text-gray-200">
+                                            </svg></a>
+                                        </h1>
+                                        <h1 className="text-sm font-semibold text-gray-700 py-5 px-5 -mt-10 dark:text-gray-200">
+                                            {item.address}
+                                        </h1>
+                                        {/* <h1 className="text-xs md:text-sm font-mono font-normal text-gray-700 py-5 px-5 -mt-10 dark:text-gray-200">
                                         {item.span}
-                                    </h1>
-                                    <h1 className="text-xs font-semibold text-gray-700 py-5 px-5 -mt-10 dark:text-gray-200">
-                                        {item.position}
-                                    </h1>
-                                    <div className='px-5 md:px-3'>
+                                    </h1> */}
+                                        <h1 className="text-xs font-semibold text-gray-700 py-5 px-5 -mt-10 dark:text-gray-200">
+                                            {item.position}
+                                        </h1>
+                                        {/* <div className='px-5 md:px-3'>
                                         {item.roles.map((i, id) => {
                                             return (
                                                 <div key={id} className="flex flex-row justify-start items-center">
@@ -76,15 +79,15 @@ const artist = () => {
                                                     </div>
                                                 </div>
                                             );
-                                            // <h2 className="text-sm md:text-md font-mono font-semibold text-gray-700 py-5 px-5 -mt-10 dark:text-gray-200">{i}</h2>);
                                         })}
+                                    </div> */}
                                     </div>
-                                </div>
-                            );
-                        })}
-
+                                );
+                            })}
+                        </div>
                     </div>
-                    <div className="inline-flex flex-col -mt-20 md:-mt-1">
+                    {/* inline-flex flex-col -mt-20 md:-mt-1 */}
+                    <div className="">
                         {/* Social Links */}
                         {/* <RoughNotationGroup show={true}>
                             <RainbowHighlight color={'#84CC16'}> */}
