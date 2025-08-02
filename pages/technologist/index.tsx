@@ -120,17 +120,6 @@ const artist = () => {
                             </div>
                         </div>
                         <h1 className="text-sm font-semibold text-gray-700 -mt-2 dark:text-gray-200">
-                            DBMS
-                        </h1>
-                        <div className="-mt-2 ml-4">
-                            <div className="flex flex-row justify-start items-center ">
-                                <div className="my-4">&rarr;</div>&nbsp;&nbsp;
-                                <div className="text-md text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                                    SQL Server, MySQL.
-                                </div>
-                            </div>
-                        </div>
-                        <h1 className="text-sm font-semibold text-gray-700 -mt-2 dark:text-gray-200">
                             RDBMS
                         </h1>
                         <div className="-mt-2 ml-4">
