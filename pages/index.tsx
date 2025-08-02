@@ -120,7 +120,7 @@ const index = () => {
                         className="text-lg font-sans  text-cyan-700 md:text-gray-700 mx-4 dark:text-gray-300"
                         style={{ lineHeight: "1.5rem" }}
                     >
-                        “Tell me and I forget, teach me and I may remember, involve me and I learn.”<b> - Benjamin Franklin 💪🏻.</b>
+                        “Tell me and I forget, teach me and I may remember, involve me and I learn.”<b> - Benjamin Franklin.</b>
                         {/* Here with this website you may know little something about me. Happy Happy!&#128578; */}
                     </p>
                 </div>
