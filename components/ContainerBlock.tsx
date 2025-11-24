@@ -6,7 +6,7 @@ import Footer from "./Footer";
 export default function ContainerBlock({ children, ...customMeta }: { children: React.ReactNode }) {
     const router = useRouter();
     const meta = {
-        title: "Midhun S Madhavan - Artist, Software Engineer",
+        title: "Midhun S Madhavan / Mismology",
         description: "Working for a better future everyone.",
         image: "../images/avatar.png",
         type: "website",
@@ -21,11 +21,11 @@ export default function ContainerBlock({ children, ...customMeta }: { children: 
                 <meta content={meta.description} name="description" />
                 <meta
                     property="og:url"
-                    content={`https://midhunsmadhavan.com${router.asPath}`}
+                    content={`https://mismology.com${router.asPath}`}
                 />
                 <link
                     rel="canonical"
-                    href={`https://midhunsmadhavan.com${router.asPath}`}
+                    href={`https://mismology.com${router.asPath}`}
                 />
                 <meta property="og:type" content={meta.type} />
                 <meta property="og:site_name" content="Midhun S Madhavan" />
@@ -39,10 +39,11 @@ export default function ContainerBlock({ children, ...customMeta }: { children: 
                 <meta name="twitter:image" content={meta.image} />
                 <link rel="icon" href={meta.image} />
             </Head>
-            <main className=" dark:bg-gray-800 w-full">
-            {/* bg-orange-50 */}
-                <Navbar />
-                <br />
+            <main style={{ fontFamily: "'Inter', sans-serif", background: '#101820', color: '#fff', minHeight: '100vh' }}>
+                {/* <main className="w-full"> */}
+                {/* bg-orange-50 */}
+                {/* <Navbar /> */}
+                {/* <br /> */}
                 <div>{children}</div>
                 <Footer />
             </main>

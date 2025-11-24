@@ -152,7 +152,11 @@ const artist = () => (
                                     <div className=" group mb-4 transition duration-200 relative bg-slate-200  rounded-sm border border-cyan-200 dark:border-gray-700  w-full aspect-w-16 aspect-h-9">
                                         {/* */}
                                         <div className='h-56 md:h-76 rounded-sm'>
-                                            <img className='h6 md:h-76 rounded-tl-sm rounded-tr-sm' src={'https://img.youtube.com/vi/' + item.url + '/0.jpg'} alt={item.title ?? ""} style={{ width: '100%', height: '100%' }} />
+                                            <Image className='h6 md:h-76 rounded-tl-sm rounded-tr-sm'
+                                                src={'https://img.youtube.com/vi/' + item.url + '/0.jpg'}
+                                                width={300}
+                                                height={300}
+                                                alt={item.title ?? ""} style={{ width: '100%', height: '100%' }} />
                                         </div>
                                         <div className='px-2 py-5'>
                                             {/* <svg xmlns="http://www.w3.org/2000/svg" className='-mt-10' x="0px" y="0px" width="20" height="20" viewBox="0 0 48 48">
