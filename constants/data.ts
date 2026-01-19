@@ -258,7 +258,7 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    instagram: "https://www.instagram.com/iammadhavan_m",
+    instagram: "https://www.instagram.com/mid.hun.devocate",
     twitter: "https://twitter.com/linuxmidhun",
     linkedin: "https://www.linkedin.com/in/midhun-s-madhavan/",
     github: "https://github.com/linuxmidhun",

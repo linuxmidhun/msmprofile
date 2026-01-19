@@ -1,6 +1,6 @@
 // TimelineTabs.tsx
 
-import { Handshake, HeartPlus, Lightbulb, MessagesSquare, Package, Ratio, Users } from "lucide-react";
+import { ChevronDown, Handshake, HeartPlus, Lightbulb, MessagesSquare, Package, Ratio, Users } from "lucide-react";
 import React, { useState } from "react";
 
 const processSteps = [
@@ -42,14 +42,17 @@ export default function TimelineTabs() {
             <div className="hidden lg:block">
                 {/* Timeline Bar with Tabs */}
                 <div className="flex flex-col md:flex-row items-center
-             md:justify-between gap-y-10 md:gap-x-0 relative mb-10">
+             md:justify-between gap-y-10 md:gap-x-0 relative">
                     {processSteps.map((step, idx) => {
                         if (active === idx)
                             return (<div key={step.name} className="relative z-10 flex cursor-pointer 
                      flex-col items-center md:w-1/7" onClick={() => setActive(idx)}>
-                                <div className="bg-gray-600 text-white rounded-full w-20 h-20 flex
+                                <div className="bg-blue-600 text-white rounded-full w-20 h-20 flex
                          items-center justify-center text-lg font-bold shadow-lg">{step.icon}</div>
                                 <span className="mt-4 font-thin">{step.name}</span>
+                                <span className="mt-1 bg-[#171618] p-2 
+                                border border-gray-800 border-b-0
+                                 rounded-t-lg"><ChevronDown size={30} className="font-black"/></span>
                             </div>)
                         else
                             return (
