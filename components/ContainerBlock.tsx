@@ -7,7 +7,7 @@ export default function ContainerBlock({ children, ...customMeta }: { children: 
     const router = useRouter();
     const meta = {
         title: "Midhun S Madhavan / Mismology",
-        description: "Working for a better future everyone.",
+        description: "Working for a better future for everyone.",
         image: "../images/avatar.png",
         type: "website",
         ...customMeta,
