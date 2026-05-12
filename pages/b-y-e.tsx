@@ -40,7 +40,7 @@ const BeforeYouExecute: NextPage = () => {
           <div className="insight-content">
             <div className="insight-label">Core Insight</div>
             <blockquote className="insight-quote">
-              "Most business and product failures are not caused during execution, but are embedded in the assumptions, decisions, and blind spots that exist <em>before</em> execution even begins."
+              &quot;Most business and product failures are not caused during execution, but are embedded in the assumptions, decisions, and blind spots that exist <em>before</em> execution even begins.&quot;
             </blockquote>
             <p className="insight-explanation">
               Before You Execute is designed to identify, challenge, and neutralize those risks at the earliest possible stage; before irreversible commitments reshape the trajectory of your initiative.
