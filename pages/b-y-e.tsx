@@ -17,12 +17,12 @@ const BeforeYouExecute: NextPage = () => {
         {/* Hero Section */}
         <section className="hero">
           <div className="hero-content">
-            <div className="programme-label">
-              <span className="label-text">Pre-Execution Risk Auditing Programme</span>
-            </div>
             <h1 className="hero-title">
               Before You Execute
             </h1>
+<div className="programme-label">
+              <span className="label-text">Pre-Execution Risk Auditing Programme</span>
+            </div>
             <div className="hero-subtitle">
               A strategic intervention layer designed to identify, challenge, and neutralize risk at the earliest possible stage—before capital is deployed, teams are committed, and momentum is set in motion.
             </div>
