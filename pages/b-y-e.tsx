@@ -258,7 +258,6 @@ const BeforeYouExecute: NextPage = () => {
             color: var(--color-accent);
             font-weight: 600;
             border: 1px solid var(--color-accent);
-            padding: 0.5rem 1rem;
             display: inline-block;
           }
 
