@@ -28,9 +28,6 @@ const BeforeYouExecute: NextPage = () => {
                 className="bye-logo"
               />
             </div>
-            <h1 className="hero-title">
-              Before You Execute
-            </h1>
 <div className="programme-label">
               <span className="label-text">Pre-Execution Risk Auditing Programme</span>
             </div>
