@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
 import type { NextPage } from 'next';
 
 const BeforeYouExecute: NextPage = () => {
@@ -17,6 +18,16 @@ const BeforeYouExecute: NextPage = () => {
         {/* Hero Section */}
         <section className="hero">
           <div className="hero-content">
+<div className="logo-container">
+              <Image 
+                src="/b-y-e-logo.png" 
+                alt="Before You Execute Logo" 
+                width={600} 
+                height={600} 
+                priority
+                className="bye-logo"
+              />
+            </div>
             <h1 className="hero-title">
               Before You Execute
             </h1>
@@ -279,6 +290,20 @@ const BeforeYouExecute: NextPage = () => {
             font-weight: 300;
             animation: fadeInUp 0.8s ease-out 0.3s backwards;
           }
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.bye-logo {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.08));
+}
 
           .consultant-info {
             padding-top: 2rem;
@@ -644,6 +669,13 @@ const BeforeYouExecute: NextPage = () => {
               padding: 5rem 1.5rem 4rem;
             }
 
+.logo-container {
+    margin-bottom: 2rem;
+  }
+
+  .bye-logo {
+    max-width: 350px;
+  }
             .section-content {
               padding: 4rem 1.5rem;
             }
