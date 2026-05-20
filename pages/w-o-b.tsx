@@ -43,7 +43,7 @@ const WOBPage: NextPage = () => {
                 alt="Welcome OnBoard Logo"
                 width={600}
                 height={600}
-                className="wob-logo"
+                className="mx-auto wob-logo"
               />
 </div>
         <section className="flex items-center border-b border-black/10">
