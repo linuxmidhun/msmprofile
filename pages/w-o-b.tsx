@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from 'next/image';
 import type { NextPage } from "next";
 
 const domains: string[] = [
@@ -37,6 +38,14 @@ const WOBPage: NextPage = () => {
       <main className="">
         {/* HERO */}
         <section className="min-h-screen flex items-center border-b border-black/10">
+<Image
+                src="/w-o-b-logo.png"
+                alt="Welcome OnBoard Logo"
+                width={600}
+                height={600}
+                priority
+                className="wob-logo"
+              />
           <div className="max-w-7xl mx-auto px-6 py-24 w-full">
             <div className="max-w-5xl">
               <p className="uppercase tracking-[0.4em] text-sm mb-6">
@@ -92,7 +101,7 @@ const WOBPage: NextPage = () => {
                 What Students Gain
               </h3>
 
-              <div className="space-y-5 text-lg text-white/70">
+              <div className="space-y-5 text-lg text-black/70">
                 <p>• Real-world career awareness</p>
                 <p>• Understanding of industry workflows</p>
                 <p>• Recruitment & placement insights</p>
@@ -200,7 +209,7 @@ const WOBPage: NextPage = () => {
                   Ideal Audience
                 </h2>
 
-                <div className="space-y-5 text-xl text-white/70">
+                <div className="space-y-5 text-xl text-black/70">
                   <p>• B.Tech / BE Students</p>
                   <p>• BCA / MCA Students</p>
                   <p>• BSc / MSc Computer Science</p>
