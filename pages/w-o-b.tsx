@@ -38,16 +38,15 @@ const WOBPage: NextPage = () => {
       <main className="">
         {/* HERO */}
         <section className="min-h-screen flex items-center border-b border-black/10">
+          <div className="max-w-7xl mx-auto px-6 py-24 w-full">
+            <div className="max-w-5xl">
 <Image
                 src="/w-o-b-logo.png"
                 alt="Welcome OnBoard Logo"
-                width={600}
-                height={600}
-                priority
+                width={100}
+                height={100}
                 className="wob-logo"
               />
-          <div className="max-w-7xl mx-auto px-6 py-24 w-full">
-            <div className="max-w-5xl">
               <p className="uppercase tracking-[0.4em] text-sm mb-6">
                 Welcome OnBoard
               </p>
