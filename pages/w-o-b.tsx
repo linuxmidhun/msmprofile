@@ -37,6 +37,7 @@ const WOBPage: NextPage = () => {
 
       <main className="">
         {/* HERO */}
+<div className="items-center">
 <Image
                 src="/w-o-b-logo.png"
                 alt="Welcome OnBoard Logo"
@@ -44,13 +45,10 @@ const WOBPage: NextPage = () => {
                 height={600}
                 className="wob-logo"
               />
+</div>
         <section className="flex items-center border-b border-black/10">
           <div className="max-w-7xl mx-auto px-6 py-5 w-full">
             <div className="max-w-5xl">
-              <p className="uppercase tracking-[0.4em] text-sm mb-6">
-                Welcome OnBoard
-              </p>
-
               <h1 className="text-5xl md:text-8xl font-bold leading-[0.95] mb-10">
                 Know The Industry
                 <br />
