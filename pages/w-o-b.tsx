@@ -36,10 +36,10 @@ const WOBPage: NextPage = () => {
 
       <main className="">
         {/* HERO */}
-        <section className="min-h-screen flex items-center border-b border-white/10">
+        <section className="min-h-screen flex items-center border-b border-black/10">
           <div className="max-w-7xl mx-auto px-6 py-24 w-full">
             <div className="max-w-5xl">
-              <p className="uppercase tracking-[0.4em] text-sm text-white/50 mb-6">
+              <p className="uppercase tracking-[0.4em] text-sm mb-6">
                 Welcome OnBoard
               </p>
 
@@ -49,7 +49,7 @@ const WOBPage: NextPage = () => {
                 Before You Enter It.
               </h1>
 
-              <p className="text-xl md:text-2xl text-white/70 leading-relaxed max-w-4xl">
+              <p className="text-xl md:text-2xl text-black/70 leading-relaxed max-w-4xl">
                 WOB is a professionally designed offline industry orientation
                 program that helps Computer Science and IT students understand
                 the real-world software industry through direct interaction with
@@ -60,19 +60,19 @@ const WOBPage: NextPage = () => {
         </section>
 
         {/* INTRO */}
-        <section className="border-b border-white/10">
+        <section className="border-b border-black/10">
           <div className="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-20">
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-8">
                 Why WOB Exists
               </h2>
 
-              <p className="text-white/70 text-lg leading-9 mb-6">
+              <p className="text-black/70 text-lg leading-9 mb-6">
                 Many students enter placements without understanding how the
                 software industry actually functions.
               </p>
 
-              <p className="text-white/70 text-lg leading-9 mb-6">
+              <p className="text-black/70 text-lg leading-9 mb-6">
                 Most know only a few common roles such as Developer or Tester,
                 while the real industry contains a much wider ecosystem of
                 careers including DevOps, ERP systems, cloud engineering,
@@ -80,14 +80,14 @@ const WOBPage: NextPage = () => {
                 operations, and more.
               </p>
 
-              <p className="text-white/70 text-lg leading-9">
+              <p className="text-black/70 text-lg leading-9">
                 WOB bridges the gap between academics and industry by bringing
                 professionals directly into campuses for real conversations,
                 practical insights, and career-oriented discussions.
               </p>
             </div>
 
-            <div className="bg-white/[0.03] border border-white/10 rounded-3xl p-10">
+            <div className="bg-black/[0.03] border border-black/10 rounded-3xl p-10">
               <h3 className="text-3xl font-semibold mb-8">
                 What Students Gain
               </h3>
@@ -107,14 +107,14 @@ const WOBPage: NextPage = () => {
         </section>
 
         {/* DOMAINS */}
-        <section className="border-b border-white/10">
+        <section className="border-b border-black/10">
           <div className="max-w-7xl mx-auto px-6 py-24">
             <div className="max-w-4xl mb-20">
               <h2 className="text-4xl md:text-6xl font-bold mb-8">
                 Featured Industry Domains
               </h2>
 
-              <p className="text-xl text-white/60 leading-relaxed">
+              <p className="text-xl text-black/60 leading-relaxed">
                 Institutions can choose professionals from multiple verticals
                 based on student interests and academic focus.
               </p>
@@ -124,7 +124,7 @@ const WOBPage: NextPage = () => {
               {domains.map((item) => (
                 <div
                   key={item}
-                  className="border border-white/10 rounded-3xl p-8 bg-white/[0.02]"
+                  className="border border-black/10 rounded-3xl p-8 bg-black/[0.02]"
                 >
                   <h3 className="text-2xl font-semibold">{item}</h3>
                 </div>
@@ -134,13 +134,13 @@ const WOBPage: NextPage = () => {
         </section>
 
         {/* OFFLINE */}
-        <section className="border-b border-white/10">
+        <section className="border-b border-black/10">
           <div className="max-w-5xl mx-auto px-6 py-24 text-center">
             <h2 className="text-4xl md:text-6xl font-bold mb-10">
               Designed As A Fully Offline Experience
             </h2>
 
-            <p className="text-xl text-white/70 leading-relaxed">
+            <p className="text-xl text-black/70 leading-relaxed">
               WOB is intentionally conducted as a live on-campus experience to
               encourage authentic interaction, networking, communication, and
               meaningful discussions between students and industry
@@ -150,14 +150,14 @@ const WOBPage: NextPage = () => {
         </section>
 
         {/* BENEFITS */}
-        <section className="border-b border-white/10">
+        <section className="border-b border-black/10">
           <div className="max-w-7xl mx-auto px-6 py-24">
             <div className="max-w-4xl mb-20">
               <h2 className="text-4xl md:text-6xl font-bold mb-8">
                 Benefits For Educational Institutions
               </h2>
 
-              <p className="text-xl text-white/60 leading-relaxed">
+              <p className="text-xl text-black/60 leading-relaxed">
                 WOB helps institutions strengthen industry exposure and career
                 readiness among students.
               </p>
@@ -167,9 +167,9 @@ const WOBPage: NextPage = () => {
               {institutionBenefits.map((item) => (
                 <div
                   key={item}
-                  className="border border-white/10 rounded-3xl p-10 bg-white/[0.02]"
+                  className="border border-black/10 rounded-3xl p-10 bg-black/[0.02]"
                 >
-                  <p className="text-xl text-white/80">{item}</p>
+                  <p className="text-xl text-black/80">{item}</p>
                 </div>
               ))}
             </div>
@@ -177,7 +177,7 @@ const WOBPage: NextPage = () => {
         </section>
 
         {/* FORMAT */}
-        <section className="border-b border-white/10">
+        <section className="border-b border-black/10">
           <div className="max-w-7xl mx-auto px-6 py-24">
             <div className="grid md:grid-cols-2 gap-20">
               <div>
@@ -185,7 +185,7 @@ const WOBPage: NextPage = () => {
                   Program Format
                 </h2>
 
-                <div className="space-y-5 text-xl text-white/70">
+                <div className="space-y-5 text-xl text-black/70">
                   <p>• Offline / On-Campus</p>
                   <p>• One-Day Industry Orientation</p>
                   <p>• Live Interactive Sessions</p>
@@ -222,7 +222,7 @@ const WOBPage: NextPage = () => {
               Into The Real IT Industry.
             </h2>
 
-            <p className="text-xl text-white/60 max-w-3xl mx-auto leading-relaxed mb-16">
+            <p className="text-xl text-black/60 max-w-3xl mx-auto leading-relaxed mb-16">
               WOB helps students understand the software industry before
               becoming part of it.
             </p>
