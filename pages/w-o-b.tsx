@@ -34,7 +34,7 @@ const WOBPage: NextPage = () => {
         />
       </Head>
 
-      <main className="bg-black text-white">
+      <main className="">
         {/* HERO */}
         <section className="min-h-screen flex items-center border-b border-white/10">
           <div className="max-w-7xl mx-auto px-6 py-24 w-full">
