@@ -226,13 +226,6 @@ const WOBPage: NextPage = () => {
               WOB helps students understand the software industry before
               becoming part of it.
             </p>
-
-            <a
-              href="/contact"
-              className="inline-flex items-center justify-center px-10 py-5 rounded-full border border-white/20 hover:bg-white hover:text-black transition-all duration-300 text-lg"
-            >
-              Invite WOB To Your Campus
-            </a>
           </div>
         </section>
       </main>
