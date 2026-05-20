@@ -37,7 +37,7 @@ const WOBPage: NextPage = () => {
 
       <main className="">
         {/* HERO */}
-<div className="w-full mx-auto">
+<div className="w-full items-center mx-auto">
 <Image
                 src="/w-o-b-logo.png"
                 alt="Welcome OnBoard Logo"
