@@ -1,6 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from "next/link";
+import { Home } from "lucide-react";
 import type { NextPage } from 'next';
 
 const BeforeYouExecute: NextPage = () => {
@@ -15,6 +17,31 @@ const BeforeYouExecute: NextPage = () => {
       </Head>
 
       <div className="bye-container">
+{/* Floating Home Button */}
+<Link
+  href="/"
+  className="
+    fixed
+    bottom-6
+    right-6
+    z-50
+    w-14
+    h-14
+    rounded-full
+    bg-black
+    text-white
+    flex
+    items-center
+    justify-center
+    shadow-xl
+    hover:scale-105
+    hover:bg-black/90
+    transition-all
+    duration-300
+  "
+>
+  <Home size={24} />
+</Link>
         {/* Hero Section */}
         <section className="hero">
           <div className="hero-content">
