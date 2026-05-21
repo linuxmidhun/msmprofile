@@ -33,7 +33,7 @@ const WOBPage: NextPage = () => {
 
         <meta
           name="description"
-          content="WOB (Welcome OnBoard) is an offline industry orientation program designed to help Computer Science and IT students understand the real-world software industry, career paths, recruitment processes, and workplace expectations."
+          content="WOB (Welcome OnBoard) is an residential industry orientation program designed to help Computer Science and IT students understand the real-world software industry, career paths, recruitment processes, and workplace expectations."
         />
       </Head>
 
@@ -83,7 +83,7 @@ const WOBPage: NextPage = () => {
               </h1>
 
               <p className="text-xl md:text-2xl text-black/70 leading-relaxed max-w-4xl">
-                WOB is a professionally designed offline industry orientation
+                WOB is a professionally designed residential industry orientation
                 program that helps Computer Science and IT students understand
                 the real-world software industry through direct interaction with
                 working professionals from multiple technology domains.
