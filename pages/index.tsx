@@ -7,7 +7,8 @@ import {
     UsersRound, Users, Ratio, Package, HeartPlus
 } from 'lucide-react';
 import { GetServerSideProps } from 'next';
-import Image from 'next/image'
+import Image from 'next/image';
+import Link from "next/link";
 import { useState } from 'react';
 
 function Index() {
@@ -251,7 +252,7 @@ function Index() {
                     </p>
 
                     <div className='pt-8'>
-                        <a
+                        <Link
                             href="/w-o-b"
                             className='inline-flex items-center justify-center px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105'
                             style={{
@@ -260,7 +261,7 @@ function Index() {
                             }}
                         >
                             Explore WOB
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -294,7 +295,7 @@ function Index() {
                     </p>
 
                     <div className='pt-8'>
-                        <a
+                        <Link
                             href="/b-y-e"
                             className='inline-flex items-center justify-center px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105'
                             style={{
@@ -303,7 +304,7 @@ function Index() {
                             }}
                         >
                             Explore BYE
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
