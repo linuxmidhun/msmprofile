@@ -59,7 +59,7 @@ const BeforeYouExecute: NextPage = () => {
               <span className="label-text">Pre-Execution Risk Auditing Programme</span>
             </div>
             <div className="hero-subtitle">
-              A strategic intervention layer designed to identify, challenge, and neutralize risk at the earliest possible stage—before capital is deployed, teams are committed, and momentum is set in motion.
+              BYE is a strategic intervention layer designed to identify, challenge, and neutralize risk at the earliest possible stage—before capital is deployed, teams are committed, and momentum is set in motion.
             </div>
             <div className="consultant-info">
               <div className="consultant-name">Led by Midhun Madhavan</div>
@@ -287,7 +287,7 @@ const BeforeYouExecute: NextPage = () => {
           }
 
           .label-text {
-            font-size: 0.75rem;
+            font-size: 2rem;
             text-transform: uppercase;
             letter-spacing: 0.15em;
             color: var(--color-accent);
