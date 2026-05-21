@@ -189,6 +189,127 @@ function Index() {
             </section> */}
 
 
+{/* Programmes Section */}
+<section className='px-5 md:px-0 py-10'>
+    <div className='max-w-6xl mx-auto'>
+        <div className='text-center mb-10'>
+            <h2
+                className='uppercase tracking-[0.3em]'
+                style={{
+                    color: '#ffd700',
+                    fontSize: '0.9rem',
+                    marginBottom: 10
+                }}
+            >
+                Strategic Initiatives
+            </h2>
+
+            <h3
+                className='text-3xl md:text-5xl font-black'
+                style={{ letterSpacing: '-2px' }}
+            >
+                My Programmes
+            </h3>
+
+            <p
+                className='text-gray-400 max-w-3xl mx-auto pt-5'
+                style={{ lineHeight: 1.8 }}
+            >
+                Industry-focused programmes designed to bridge the gap between
+                ideas, execution, and real-world technology ecosystems.
+            </p>
+        </div>
+
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
+            {/* WOB */}
+            <div
+                className='bg-[#0e1417] border border-gray-800 rounded-2xl overflow-hidden shadow-xl transition-all duration-300 hover:-translate-y-1 hover:border-blue-500'
+            >
+                <Image
+                    src="/w-o-b-logo.png"
+                    alt="WOB"
+                    width={1200}
+                    height={700}
+                    className='w-full object-cover'
+                />
+
+                <div className='p-8'>
+                    <h3
+                        className='text-3xl font-black mb-4'
+                        style={{ color: '#ece6c5' }}
+                    >
+                        WOB — Welcome OnBoard
+                    </h3>
+
+                    <p
+                        className='text-gray-300 leading-8'
+                    >
+                        WOB (Welcome OnBoard) is a residential industry orientation
+                        program designed to help Computer Science and IT students
+                        understand the real-world software industry, career paths,
+                        recruitment processes, and workplace expectations.
+                    </p>
+
+                    <div className='pt-8'>
+                        <a
+                            href="/w-o-b"
+                            className='inline-flex items-center justify-center px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105'
+                            style={{
+                                background: 'linear-gradient(90deg, #0f172a, #2563eb)',
+                                color: '#fff'
+                            }}
+                        >
+                            Explore WOB
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            {/* BYE */}
+            <div
+                className='bg-[#0e1417] border border-gray-800 rounded-2xl overflow-hidden shadow-xl transition-all duration-300 hover:-translate-y-1 hover:border-cyan-500'
+            >
+                <Image
+                    src="/b-y-e-logo.png"
+                    alt="BYE"
+                    width={1200}
+                    height={700}
+                    className='w-full object-cover'
+                />
+
+                <div className='p-8'>
+                    <h3
+                        className='text-3xl font-black mb-4'
+                        style={{ color: '#ece6c5' }}
+                    >
+                        BYE — Before You Execute
+                    </h3>
+
+                    <p
+                        className='text-gray-300 leading-8'
+                    >
+                        BYE (Before You Execute) is a strategic intervention layer
+                        that identifies and eliminates avoidable risks before
+                        execution begins.
+                    </p>
+
+                    <div className='pt-8'>
+                        <a
+                            href="/b-y-e"
+                            className='inline-flex items-center justify-center px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105'
+                            style={{
+                                background: 'linear-gradient(90deg, #0f172a, #14b8a6)',
+                                color: '#fff'
+                            }}
+                        >
+                            Explore BYE
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
             {/* Contact Section */}
             <section className="text-center py-16 pt-10 font-sans">
                 <p className="text-lg mb-3 text-gray-600">EXECUTIVE CONTACT</p>
