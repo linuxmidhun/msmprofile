@@ -134,6 +134,7 @@ const WOBPage: NextPage = () => {
                 <p>• Industry interaction opportunities</p>
                 <p>• Professional communication exposure</p>
                 <p>• Better placement preparedness</p>
+<p>• Stronger professional profile &amp; résumé preparation</p>
               </div>
             </div>
           </div>
