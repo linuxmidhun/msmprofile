@@ -170,7 +170,7 @@ const WOBPage: NextPage = () => {
         <section className="border-b border-black/10">
           <div className="max-w-5xl mx-auto px-6 py-24 text-center">
             <h2 className="text-4xl md:text-6xl font-bold mb-10">
-              Designed As A Fully Offline Experience
+              Designed As A Fully Residential Experience
             </h2>
 
             <p className="text-xl text-black/70 leading-relaxed">
