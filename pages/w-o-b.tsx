@@ -255,7 +255,7 @@ const WOBPage: NextPage = () => {
               Into The Real IT Industry.
             </h2>
 
-            <p className="text-xl text-black/60 max-w-3xl mx-auto leading-relaxed mb-16">
+            <p className="text-xl text-black/60 max-w-3xl mx-auto leading-relaxed mb-10">
               WOB helps students understand the software industry before
               becoming part of it.
             </p>
@@ -263,7 +263,7 @@ const WOBPage: NextPage = () => {
         </section>
 
 {/* Contact Section */}
-            <section className="text-center py-16 pt-10 font-sans">
+            <section className="text-center py-16 pt-10 font-sans mb-10">
                 <p className="text-lg mb-3 text-gray-600">EXECUTIVE CONTACT</p>
                 <a href="tel:+918129584938"
                     className="inline-flex items-center gap-3 text-2xl font-bold text-gray-600 border-2 border-gray-600 px-6 py-3 rounded-full hover:bg-gray-600 hover:text-white transition-colors duration-300">
