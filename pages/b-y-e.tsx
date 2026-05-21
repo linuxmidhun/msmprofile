@@ -10,7 +10,7 @@ const BeforeYouExecute: NextPage = () => {
     <>
       <Head>
         <title>Before You Execute - Pre-Execution Risk Auditing | Midhun Madhavan</title>
-        <meta name="description" content="A strategic intervention layer that identifies and eliminates avoidable risks before execution begins. Led by Midhun Madhavan." />
+        <meta name="description" content="BYE (Before You Execute) is a strategic intervention layer that identifies and eliminates avoidable risks before execution begins. Led by Midhun Madhavan." />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
