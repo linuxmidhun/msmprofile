@@ -126,7 +126,7 @@ const WOBPage: NextPage = () => {
           <Home size={24} />
         </Link>
 
-        {/* HERO */}
+        {/* HERO test */}
         <section className="relative border-b border-black/10">
           <div className="absolute inset-0 bg-gradient-to-b from-blue-50/70 to-white pointer-events-none" />
 
