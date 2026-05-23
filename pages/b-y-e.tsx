@@ -1,71 +1,102 @@
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import Link from "next/link";
-import { Home } from "lucide-react";
+import Link from 'next/link';
+import { Home } from 'lucide-react';
 import type { NextPage } from 'next';
 
 const BeforeYouExecute: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Before You Execute - Pre-Execution Risk Auditing | Midhun Madhavan</title>
-        <meta name="description" content="BYE (Before You Execute) is a strategic intervention layer that identifies and eliminates avoidable risks before execution begins. Led by Midhun Madhavan." />
+        <title>
+          Before You Execute - Pre-Execution Risk Auditing | Midhun Madhavan
+        </title>
+
+        <meta
+          name="description"
+          content="Before You Execute (B.Y.E) is a strategic pre-execution audit framework focused on identifying operational, strategic, technical, and execution-level risks before irreversible commitments are made."
+        />
+
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1"
+        />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet"
+        />
       </Head>
 
       <div className="bye-container">
-{/* Floating Home Button */}
-<Link
-  href="/"
-  className="
-    fixed
-    bottom-6
-    right-6
-    z-50
-    w-14
-    h-14
-    rounded-full
-    bg-black
-    text-white
-    flex
-    items-center
-    justify-center
-    shadow-xl
-    hover:scale-105
-    hover:bg-black/90
-    transition-all
-    duration-300
-  "
->
-  <Home size={24} />
-</Link>
-        {/* Hero Section */}
+
+        {/* Floating Home Button */}
+        <Link href="/" className="floating-home">
+          <Home size={22} />
+        </Link>
+
+        {/* Hero */}
         <section className="hero">
           <div className="hero-content">
-<div className="logo-container">
-              <Image 
-                src="/b-y-e-logo.png" 
-                alt="Before You Execute Logo" 
-                width={600} 
-                height={600} 
+
+            <div className="logo-container">
+              <Image
+                src="/b-y-e-logo.png"
+                alt="Before You Execute Logo"
+                width={600}
+                height={600}
                 priority
                 className="bye-logo"
               />
             </div>
-<div className="programme-label">
-              <span className="label-text">Pre-Execution Risk Auditing Programme</span>
+
+            <div className="programme-label">
+              <span className="label-text">
+                PRE-EXECUTION RISK AUDITING FRAMEWORK
+              </span>
             </div>
+
+            <h1 className="hero-title">
+              Validate Before You Build.
+              <br />
+              Audit Before You Scale.
+            </h1>
+
             <div className="hero-subtitle">
-              BYE is a strategic intervention layer designed to identify, challenge, and neutralize risk at the earliest possible stage—before capital is deployed, teams are committed, and momentum is set in motion.
+              Before You Execute is a strategic pre-execution audit framework
+              designed to identify operational, strategic, technical, and
+              execution-level risks before irreversible commitments are made.
             </div>
+
             <div className="consultant-info">
-              <div className="consultant-name">Led by Midhun Madhavan</div>
-              <div className="consultant-description">
-                Specialized Business Consultant focused on early-stage decision validation, execution strategy design, and risk mitigation
+              <div className="consultant-name">
+                Led by Midhun Madhavan
               </div>
+
+              <div className="consultant-description">
+                Specialized in execution strategy design, technical feasibility
+                assessment, operational risk analysis, and early-stage decision
+                validation.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Why BYE Exists */}
+        <section className="why-bye">
+          <div className="section-content">
+            <div className="why-statement">
+              Many initiatives fail not because of poor execution, but because
+              critical assumptions were never challenged before execution began.
             </div>
           </div>
         </section>
@@ -73,98 +104,157 @@ const BeforeYouExecute: NextPage = () => {
         {/* Core Insight */}
         <section className="core-insight">
           <div className="insight-content">
-            <div className="insight-label">Core Insight</div>
+
+            <div className="insight-label">
+              CORE INSIGHT
+            </div>
+
             <blockquote className="insight-quote">
-              &quot;Most business and product failures are not caused during execution, but are embedded in the assumptions, decisions, and blind spots that exist <em>before</em> execution even begins.&quot;
+              “Most business and product failures are not caused during
+              execution, but are embedded in the assumptions, decisions, and
+              blind spots that exist <em>before</em> execution even begins.”
             </blockquote>
+
             <p className="insight-explanation">
-              Before You Execute is designed to identify, challenge, and neutralize those risks at the earliest possible stage; before irreversible commitments reshape the trajectory of your initiative.
+              Before You Execute introduces a structured intervention layer that
+              identifies, challenges, and neutralizes those risks before capital,
+              teams, systems, and momentum become difficult to redirect.
             </p>
           </div>
         </section>
 
-        {/* When to Engage */}
+        {/* When To Engage */}
         <section className="when-engage">
           <div className="section-content">
-            <h2 className="section-title">When to Engage</h2>
+
+            <h2 className="section-title">
+              When to Engage
+            </h2>
+
             <p className="section-intro">
-              Clients typically engage with this programme when they are at a <strong>decision threshold</strong>:
+              Organizations and founders typically engage with this framework
+              when approaching a major operational or strategic decision
+              threshold.
             </p>
+
             <div className="scenarios-grid">
+
               <div className="scenario-card">
                 <div className="scenario-number">01</div>
-                <div className="scenario-text">Evaluating a new business idea</div>
+                <div className="scenario-text">
+                  Evaluating a new business initiative
+                </div>
               </div>
+
               <div className="scenario-card">
                 <div className="scenario-number">02</div>
-                <div className="scenario-text">Planning a new product</div>
+                <div className="scenario-text">
+                  Planning a new digital product or platform
+                </div>
               </div>
+
               <div className="scenario-card">
                 <div className="scenario-number">03</div>
-                <div className="scenario-text">Structuring a new service offering</div>
+                <div className="scenario-text">
+                  Structuring or redesigning a service model
+                </div>
               </div>
+
               <div className="scenario-card">
                 <div className="scenario-number">04</div>
-                <div className="scenario-text">Preparing for market entry or scale</div>
+                <div className="scenario-text">
+                  Preparing for market expansion or scale
+                </div>
               </div>
+
               <div className="scenario-card">
                 <div className="scenario-number">05</div>
-                <div className="scenario-text">Improving market share without new product rollout</div>
+                <div className="scenario-text">
+                  Improving market performance without launching new products
+                </div>
               </div>
+
               <div className="scenario-card">
                 <div className="scenario-number">06</div>
-                <div className="scenario-text">Revamping or restructuring the company or its policies</div>
+                <div className="scenario-text">
+                  Restructuring operations, policies, or strategic direction
+                </div>
               </div>
+
             </div>
+
             <p className="section-note">
-              Instead of immediately moving into execution, Before You Execute introduces a <strong>structured audit layer</strong> that rigorously examines the plan from a business-first perspective.
+              Instead of moving directly into execution, Before You Execute
+              introduces a structured audit layer that rigorously evaluates the
+              initiative from operational, strategic, technical, and market
+              perspectives.
             </p>
+
           </div>
         </section>
 
-        {/* The Process */}
+        {/* Process */}
         <section className="process">
           <div className="section-content">
-            <h2 className="section-title">The Process</h2>
+
+            <h2 className="section-title">
+              The Process
+            </h2>
+
             <p className="section-intro">
-              The process systematically breaks down your initiative across key dimensions—problem-solution alignment, assumption integrity, market reality, execution feasibility, resource allocation, and strategic coherence.
+              The framework systematically breaks down the initiative across key
+              dimensions including assumption integrity, execution feasibility,
+              operational dependency mapping, market alignment, strategic
+              coherence, and resource efficiency.
             </p>
+
             <div className="process-statement">
-              The intent is not to validate optimism, but to stress-test it.
+              The objective is not to validate optimism, but to stress-test it.
             </div>
+
             <div className="discoveries-section">
-              <h3 className="subsection-title">Through this engagement, we surface:</h3>
+
+              <h3 className="subsection-title">
+                Key Risk Areas Identified
+              </h3>
+
               <div className="discoveries-list">
+
                 <div className="discovery-item">
-                  <div className="discovery-icon">⚠</div>
                   <div className="discovery-content">
-                    <strong>Hidden assumptions</strong> that may not hold under real-world conditions
+                    <strong>Hidden assumptions</strong> that may collapse under
+                    real-world conditions.
                   </div>
                 </div>
+
                 <div className="discovery-item">
-                  <div className="discovery-icon">◆</div>
                   <div className="discovery-content">
-                    <strong>Strategic gaps</strong> that could weaken positioning or differentiation
+                    <strong>Strategic gaps</strong> that weaken positioning,
+                    differentiation, or long-term sustainability.
                   </div>
                 </div>
+
                 <div className="discovery-item">
-                  <div className="discovery-icon">⊗</div>
                   <div className="discovery-content">
-                    <strong>Misalignment</strong> between what is being built and what the market actually values
+                    <strong>Market misalignment</strong> between what is being
+                    built and what users actually value.
                   </div>
                 </div>
+
                 <div className="discovery-item">
-                  <div className="discovery-icon">⚡</div>
                   <div className="discovery-content">
-                    <strong>Execution risks</strong> that can lead to delays, cost overruns, or failure
+                    <strong>Execution bottlenecks</strong> that could introduce
+                    delays, inefficiencies, or operational instability.
                   </div>
                 </div>
+
                 <div className="discovery-item">
-                  <div className="discovery-icon">⊕</div>
                   <div className="discovery-content">
-                    <strong>Structural inefficiencies</strong> in planning, sequencing, or prioritization
+                    <strong>Structural inefficiencies</strong> in planning,
+                    prioritization, sequencing, or allocation.
                   </div>
                 </div>
+
               </div>
             </div>
           </div>
@@ -173,67 +263,160 @@ const BeforeYouExecute: NextPage = () => {
         {/* Positioning */}
         <section className="positioning">
           <div className="section-content">
-            <h2 className="section-title">Strategic Positioning</h2>
+
+            <h2 className="section-title light">
+              Strategic Positioning
+            </h2>
+
             <div className="positioning-statement">
+
               <p>
-                Unlike conventional consulting that operates either at a high-level advisory stage or during execution, Before You Execute is positioned <strong>precisely before irreversible commitment</strong>.
+                Unlike conventional consulting models that operate either at a
+                high-level advisory stage or during execution, Before You
+                Execute is positioned precisely before irreversible commitment.
               </p>
+
               <p>
-                It acts as a critical intervention point where decisions can still be refined without significant cost.
+                It functions as a strategic intervention point where critical
+                decisions can still be refined without significant operational
+                or financial cost.
               </p>
+
             </div>
+          </div>
+        </section>
+
+        {/* Audience */}
+        <section className="audience">
+          <div className="section-content">
+
+            <h2 className="section-title">
+              Who This Is For
+            </h2>
+
+            <div className="audience-grid">
+
+              <div className="audience-card">
+                <h3>Startups</h3>
+                <p>
+                  Validate product direction, execution feasibility, and
+                  strategic assumptions before deployment.
+                </p>
+              </div>
+
+              <div className="audience-card">
+                <h3>Institutions</h3>
+                <p>
+                  Evaluate transformation initiatives, restructuring plans, and
+                  strategic programs before rollout.
+                </p>
+              </div>
+
+              <div className="audience-card">
+                <h3>Founders & Teams</h3>
+                <p>
+                  Reduce operational uncertainty and improve execution clarity
+                  before committing resources.
+                </p>
+              </div>
+
+            </div>
+
           </div>
         </section>
 
         {/* Outcomes */}
         <section className="outcomes">
           <div className="section-content">
-            <h2 className="section-title">Client Outcomes</h2>
+
+            <h2 className="section-title">
+              Client Outcomes
+            </h2>
+
             <div className="outcomes-grid">
+
               <div className="outcome-card">
-                <div className="outcome-title">Eliminate Avoidable Risks</div>
+                <div className="outcome-title">
+                  Eliminate Avoidable Risks
+                </div>
+
                 <div className="outcome-description">
-                  Address failure scenarios before they materialize
+                  Address high-impact failure scenarios before they materialize.
                 </div>
               </div>
+
               <div className="outcome-card">
-                <div className="outcome-title">Optimize Resource Utilization</div>
+                <div className="outcome-title">
+                  Improve Resource Efficiency
+                </div>
+
                 <div className="outcome-description">
-                  Reduce waste and improve capital efficiency
+                  Reduce waste, misallocation, and execution inefficiencies.
                 </div>
               </div>
+
               <div className="outcome-card">
-                <div className="outcome-title">Strengthen Strategic Clarity</div>
+                <div className="outcome-title">
+                  Strengthen Strategic Clarity
+                </div>
+
                 <div className="outcome-description">
-                  Enter execution with validated decision confidence
+                  Move into execution with validated decision confidence.
                 </div>
               </div>
+
               <div className="outcome-card">
-                <div className="outcome-title">Build Execution Resilience</div>
+                <div className="outcome-title">
+                  Build Execution Resilience
+                </div>
+
                 <div className="outcome-description">
-                  Move forward with precision, clarity, and intent
+                  Improve readiness, adaptability, and long-term operational
+                  stability.
                 </div>
               </div>
+
             </div>
+
           </div>
         </section>
 
-        {/* Pre-Mortem Philosophy */}
+        {/* Philosophy */}
         <section className="philosophy">
           <div className="philosophy-content">
-            <div className="philosophy-label">Core Philosophy</div>
-            <div className="philosophy-statement">
-              At its core, Before You Execute functions as a <strong>strategic pre-mortem</strong>—anticipating failure scenarios in advance so they can be addressed proactively.
+
+            <div className="philosophy-label">
+              CORE PHILOSOPHY
             </div>
+
+            <div className="philosophy-statement">
+              Before You Execute functions as a strategic pre-mortem framework —
+              anticipating failure scenarios before they become operationally
+              expensive.
+            </div>
+
             <div className="philosophy-rationale">
+
               <div className="rationale-item">
-                <span className="rationale-label">Because</span>
-                <span className="rationale-text">once execution begins, change becomes expensive</span>
+                <span className="rationale-label">
+                  Because
+                </span>
+
+                <span className="rationale-text">
+                  once execution begins, change becomes expensive
+                </span>
               </div>
+
               <div className="rationale-item">
-                <span className="rationale-label">Before that</span>
-                <span className="rationale-text">it is still strategic</span>
+                <span className="rationale-label">
+                  Before That
+                </span>
+
+                <span className="rationale-text">
+                  it is still strategic
+                </span>
               </div>
+
             </div>
           </div>
         </section>
@@ -241,254 +424,373 @@ const BeforeYouExecute: NextPage = () => {
         {/* Final Statement */}
         <section className="final-statement">
           <div className="statement-content">
+
             <p className="statement-text">
-              Before You Execute ensures that when you move forward, you do so with precision, clarity, and intent—not assumption.
+              Before You Execute ensures that when execution begins, it begins
+              with clarity, precision, alignment, and strategic intent —
+              not assumption.
             </p>
+
           </div>
         </section>
 
-{/* Contact Section */}
-            <section className="text-center py-16 pt-10 font-sans mb-16">
-                <p className="text-lg mb-3 text-gray-600">Initiate a Pre-Execution Review</p>
-                <a href="tel:+918129584938"
-                    className="inline-flex items-center gap-3 text-2xl font-bold text-gray-600 border-2 border-gray-600 px-6 py-3 rounded-full hover:bg-gray-600 hover:text-white transition-colors duration-300">
-                    <svg className="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
-                        <path d="M6.62 10.79a15.566 15.566 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.36 11.36 0 003.55.57 1 1 0 011 1v3.52a1 1 0 01-1 1A16 16 0 014 6a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.55 1 1 0 01-.21 1.11l-2.24 2.13z" />
-                    </svg>
-                    +91-8129584938
-                </a>
-            </section>
+        {/* CTA */}
+        <section className="contact-section">
+
+          <p className="cta-label">
+            Discuss Your Initiative
+          </p>
+
+          <h2 className="cta-heading">
+            Request a Strategic Pre-Execution Assessment
+          </h2>
+
+          <a href="tel:+918129584938" className="contact-button">
+            +91 8129584938
+          </a>
+
+        </section>
 
         <style jsx>{`
+
           :root {
-            --color-ink: #1a1a1a;
-            --color-ink-light: #2d2d2d;
-            --color-paper: #fdfcfa;
+            --color-ink: #141414;
+            --color-ink-light: #2f2f2f;
+            --color-paper: #fdfcf9;
             --color-accent: #8b4513;
-            --color-accent-light: #a0522d;
-            --color-border: #d4cfc4;
+            --color-border: rgba(0,0,0,0.06);
             --color-subtle: #666;
-            --font-serif: 'Libre Baskerville', serif;
-            --font-sans: 'IBM Plex Sans', sans-serif;
+            --font-sans: 'Inter', sans-serif;
+          }
+
+          * {
+            box-sizing: border-box;
           }
 
           .bye-container {
             min-height: 100vh;
-            background-color: var(--color-paper);
-            color: var(--color-ink);
             font-family: var(--font-sans);
+            color: var(--color-ink);
             line-height: 1.7;
+            overflow-x: hidden;
+
+            background:
+              radial-gradient(circle at top left,
+              rgba(139,69,19,0.04), transparent 30%),
+              radial-gradient(circle at bottom right,
+              rgba(0,0,0,0.03), transparent 35%),
+              #fdfcf9;
           }
 
-          /* Hero Section */
+          .bye-container::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image:
+              linear-gradient(rgba(0,0,0,0.015) 1px, transparent 1px),
+              linear-gradient(90deg, rgba(0,0,0,0.015) 1px, transparent 1px);
+            background-size: 40px 40px;
+            pointer-events: none;
+            z-index: 0;
+          }
+
+          .bye-container > * {
+            position: relative;
+            z-index: 1;
+          }
+
+          .floating-home {
+            position: fixed;
+            right: 24px;
+            bottom: 24px;
+            width: 56px;
+            height: 56px;
+            border-radius: 999px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+
+            color: white;
+
+            backdrop-filter: blur(14px);
+            background: rgba(0,0,0,0.82);
+            border: 1px solid rgba(255,255,255,0.12);
+
+            box-shadow:
+              0 10px 30px rgba(0,0,0,0.18);
+
+            transition:
+              transform 0.3s ease,
+              background 0.3s ease;
+          }
+
+          .floating-home:hover {
+            transform: translateY(-2px) scale(1.03);
+            background: rgba(0,0,0,0.9);
+          }
+
+          section {
+            position: relative;
+          }
+
           .hero {
-            padding: 8rem 2rem 6rem;
-            border-bottom: 2px solid var(--color-border);
-            background: linear-gradient(180deg, #fdfcfa 0%, #f8f6f2 100%);
+            padding: 8rem 2rem 7rem;
           }
 
           .hero-content {
-            max-width: 900px;
+            max-width: 1100px;
             margin: 0 auto;
-            animation: fadeInUp 0.8s ease-out;
+          }
+
+          .logo-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 3rem;
+          }
+
+          .bye-logo {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            filter: drop-shadow(0 10px 25px rgba(0,0,0,0.08));
           }
 
           .programme-label {
             margin-bottom: 2rem;
-            animation: fadeInUp 0.8s ease-out 0.1s backwards;
+            text-align: center;
           }
 
           .label-text {
-            font-size: 2rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            color: var(--color-accent);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            padding: 0.75rem 1rem;
+
+            border-radius: 999px;
+
+            background: rgba(139,69,19,0.08);
+            border: 1px solid rgba(139,69,19,0.15);
+
+            font-size: 0.8rem;
+            letter-spacing: 0.14em;
             font-weight: 600;
-            border: 1px solid var(--color-accent);
-            display: inline-block;
+
+            color: var(--color-accent);
           }
 
           .hero-title {
-            font-family: var(--font-serif);
-            font-size: clamp(2.5rem, 6vw, 4.5rem);
-            font-weight: 700;
-            line-height: 1.1;
-            margin: 0 0 2rem 0;
-            color: var(--color-ink);
-            animation: fadeInUp 0.8s ease-out 0.2s backwards;
+            text-align: center;
+
+            font-size: clamp(3rem, 7vw, 6rem);
+            line-height: 1.05;
+            letter-spacing: -0.04em;
+
+            font-weight: 800;
+
+            margin: 0 auto 2rem;
+            max-width: 1000px;
           }
 
           .hero-subtitle {
-            font-size: clamp(1.1rem, 2vw, 1.35rem);
-            line-height: 1.65;
+            font-size: 1.2rem;
             color: var(--color-ink-light);
-            margin-bottom: 3rem;
-            font-weight: 300;
-            animation: fadeInUp 0.8s ease-out 0.3s backwards;
+
+            max-width: 760px;
+            margin: 0 auto;
+
+            text-align: center;
+            line-height: 1.8;
           }
 
-.logo-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 3rem;
-  animation: fadeInUp 0.8s ease-out;
-}
-
-.bye-logo {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
-  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.08));
-}
-
           .consultant-info {
+            margin-top: 4rem;
             padding-top: 2rem;
+
             border-top: 1px solid var(--color-border);
-            animation: fadeInUp 0.8s ease-out 0.4s backwards;
+
+            text-align: center;
           }
 
           .consultant-name {
-            font-size: 1.1rem;
-            font-weight: 600;
-            color: var(--color-ink);
-            margin-bottom: 0.5rem;
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 0.6rem;
           }
 
           .consultant-description {
-            font-size: 0.95rem;
             color: var(--color-subtle);
-            line-height: 1.6;
-          }
-
-          /* Core Insight */
-          .core-insight {
-            padding: 6rem 2rem;
-            background-color: var(--color-ink);
-            color: var(--color-paper);
-          }
-
-          .insight-content {
-            max-width: 800px;
+            max-width: 700px;
             margin: 0 auto;
           }
 
-          .insight-label {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            color: var(--color-accent-light);
-            font-weight: 600;
+          .why-bye {
+            padding: 5rem 2rem;
+          }
+
+          .why-statement {
+            font-size: clamp(1.5rem, 3vw, 2.2rem);
+            line-height: 1.5;
+            font-weight: 500;
+            max-width: 900px;
+          }
+
+          .core-insight {
+            padding: 7rem 2rem;
+
+            background:
+              linear-gradient(
+                135deg,
+                rgba(22,22,22,1) 0%,
+                rgba(35,35,35,1) 100%
+              );
+
+            color: white;
+          }
+
+          .insight-content {
+            max-width: 900px;
+            margin: 0 auto;
+          }
+
+          .insight-label,
+          .philosophy-label {
+            font-size: 0.78rem;
+            letter-spacing: 0.14em;
+            font-weight: 700;
+            opacity: 0.75;
             margin-bottom: 2rem;
           }
 
           .insight-quote {
-            font-family: var(--font-serif);
-            font-size: clamp(1.4rem, 3vw, 2rem);
-            line-height: 1.5;
-            margin: 0 0 2rem 0;
-            font-weight: 400;
-            border-left: 3px solid var(--color-accent);
+            margin: 0 0 2rem;
+
+            font-size: clamp(1.6rem, 3vw, 2.3rem);
+            line-height: 1.55;
+            font-weight: 500;
+
+            border-left: 3px solid rgba(255,255,255,0.25);
             padding-left: 2rem;
           }
 
-          .insight-quote em {
-            font-style: italic;
-            color: var(--color-accent-light);
-          }
-
           .insight-explanation {
-            font-size: 1.05rem;
-            color: #d4cfc4;
-            line-height: 1.7;
-          }
-
-          /* Sections */
-          section {
-            animation: fadeIn 0.6s ease-out;
+            max-width: 760px;
+            color: rgba(255,255,255,0.75);
           }
 
           .section-content {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 6rem 2rem;
+            padding: 7rem 2rem;
           }
 
           .section-title {
-            font-family: var(--font-serif);
-            font-size: clamp(2rem, 4vw, 3rem);
-            font-weight: 700;
-            margin: 0 0 2rem 0;
-            color: var(--color-ink);
+            font-size: clamp(2.2rem, 5vw, 4rem);
+            line-height: 1.05;
+            letter-spacing: -0.04em;
+
+            margin-bottom: 2rem;
+            font-weight: 800;
+          }
+
+          .section-title.light {
+            color: white;
+          }
+
+          .section-intro,
+          .section-note,
+          .positioning-statement,
+          .statement-text {
+            max-width: 760px;
           }
 
           .section-intro {
             font-size: 1.15rem;
-            line-height: 1.7;
             color: var(--color-ink-light);
             margin-bottom: 3rem;
           }
 
           .section-note {
-            font-size: 1.05rem;
-            line-height: 1.7;
-            color: var(--color-ink-light);
+            margin-top: 3rem;
+            color: var(--color-subtle);
+          }
+
+          .when-engage,
+          .outcomes {
+            border-top: 1px solid var(--color-border);
+            border-bottom: 1px solid var(--color-border);
+          }
+
+          .scenarios-grid,
+          .outcomes-grid,
+          .audience-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
             margin-top: 3rem;
           }
 
-          /* When to Engage */
-          .when-engage {
-            background-color: #f8f6f2;
-            border-top: 2px solid var(--color-border);
-            border-bottom: 2px solid var(--color-border);
+          .scenario-card,
+          .outcome-card,
+          .discovery-item,
+          .audience-card {
+            background: rgba(255,255,255,0.72);
+
+            backdrop-filter: blur(12px);
+
+            border: 1px solid rgba(0,0,0,0.06);
+
+            border-radius: 24px;
+
+            box-shadow:
+              0 10px 30px rgba(0,0,0,0.04),
+              0 2px 8px rgba(0,0,0,0.03);
+
+            transition:
+              transform 0.35s ease,
+              box-shadow 0.35s ease,
+              border-color 0.35s ease;
           }
 
-          .scenarios-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin: 3rem 0;
+          .scenario-card:hover,
+          .outcome-card:hover,
+          .discovery-item:hover,
+          .audience-card:hover {
+            transform: translateY(-4px);
           }
 
           .scenario-card {
             display: flex;
-            align-items: flex-start;
-            gap: 1.25rem;
-            padding: 1.75rem;
-            background-color: var(--color-paper);
-            border: 1px solid var(--color-border);
-            transition: all 0.3s ease;
-          }
-
-          .scenario-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            border-color: var(--color-accent);
+            gap: 1.5rem;
+            padding: 2rem;
           }
 
           .scenario-number {
-            font-family: var(--font-serif);
-            font-size: 1.5rem;
-            font-weight: 700;
+            font-size: 1.4rem;
+            font-weight: 800;
             color: var(--color-accent);
             flex-shrink: 0;
           }
 
           .scenario-text {
             font-size: 1.05rem;
-            line-height: 1.5;
-            color: var(--color-ink);
+            color: var(--color-ink-light);
           }
 
-          /* Process Section */
           .process-statement {
-            font-family: var(--font-serif);
-            font-size: 1.5rem;
-            font-style: italic;
-            color: var(--color-accent);
-            margin: 3rem 0;
+            margin: 4rem 0;
+
             padding: 2rem 0;
+
             border-top: 1px solid var(--color-border);
             border-bottom: 1px solid var(--color-border);
+
+            font-size: 1.8rem;
+            line-height: 1.5;
+
+            font-weight: 500;
+            color: var(--color-accent);
           }
 
           .discoveries-section {
@@ -496,10 +798,8 @@ const BeforeYouExecute: NextPage = () => {
           }
 
           .subsection-title {
-            font-family: var(--font-serif);
             font-size: 1.5rem;
-            font-weight: 600;
-            color: var(--color-ink);
+            font-weight: 700;
             margin-bottom: 2rem;
           }
 
@@ -510,234 +810,224 @@ const BeforeYouExecute: NextPage = () => {
           }
 
           .discovery-item {
-            display: flex;
-            align-items: flex-start;
-            gap: 1.5rem;
-            padding: 1.5rem;
-            background-color: #f8f6f2;
-            border-left: 3px solid var(--color-accent);
-          }
-
-          .discovery-icon {
-            font-size: 1.5rem;
-            color: var(--color-accent);
-            flex-shrink: 0;
+            padding: 2rem;
           }
 
           .discovery-content {
-            font-size: 1.05rem;
-            line-height: 1.6;
             color: var(--color-ink-light);
+            line-height: 1.8;
           }
 
           .discovery-content strong {
             color: var(--color-ink);
-            font-weight: 600;
           }
 
-          /* Positioning */
           .positioning {
-            background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
-            color: var(--color-paper);
+            background:
+              linear-gradient(
+                135deg,
+                rgba(24,24,24,1) 0%,
+                rgba(38,38,38,1) 100%
+              );
           }
 
           .positioning-statement p {
-            font-size: 1.25rem;
-            line-height: 1.75;
+            color: rgba(255,255,255,0.72);
+            font-size: 1.2rem;
+            line-height: 1.8;
             margin-bottom: 1.5rem;
-            color: #d4cfc4;
           }
 
-          .positioning-statement strong {
-            color: var(--color-paper);
-            font-weight: 600;
-          }
-
-          /* Outcomes */
-          .outcomes {
-            background-color: #f8f6f2;
-            border-bottom: 2px solid var(--color-border);
-          }
-
-          .outcomes-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-          }
-
+          .audience-card,
           .outcome-card {
             padding: 2rem;
-            background-color: var(--color-paper);
-            border: 1px solid var(--color-border);
-            border-top: 3px solid var(--color-accent);
-            transition: all 0.3s ease;
           }
 
-          .outcome-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-          }
-
+          .audience-card h3,
           .outcome-title {
-            font-family: var(--font-serif);
-            font-size: 1.25rem;
-            font-weight: 600;
-            color: var(--color-ink);
+            font-size: 1.3rem;
+            font-weight: 700;
             margin-bottom: 1rem;
           }
 
+          .audience-card p,
           .outcome-description {
-            font-size: 0.95rem;
             color: var(--color-subtle);
-            line-height: 1.6;
+            line-height: 1.8;
           }
 
-          /* Philosophy */
           .philosophy {
-            padding: 6rem 2rem;
-            background: linear-gradient(135deg, #8b4513 0%, #a0522d 100%);
-            color: var(--color-paper);
+            padding: 7rem 2rem;
+
+            background:
+              linear-gradient(
+                135deg,
+                #8b4513 0%,
+                #a0522d 100%
+              );
+
+            color: white;
           }
 
           .philosophy-content {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             text-align: center;
           }
 
-          .philosophy-label {
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            letter-spacing: 0.15em;
-            font-weight: 600;
-            margin-bottom: 2rem;
-            opacity: 0.8;
-          }
-
           .philosophy-statement {
-            font-family: var(--font-serif);
-            font-size: clamp(1.5rem, 3vw, 2.25rem);
+            font-size: clamp(1.8rem, 4vw, 3rem);
             line-height: 1.5;
             margin-bottom: 3rem;
-          }
-
-          .philosophy-statement strong {
-            font-weight: 700;
+            font-weight: 500;
           }
 
           .philosophy-rationale {
             display: flex;
             flex-direction: column;
             gap: 1.5rem;
-            max-width: 500px;
+
+            max-width: 650px;
             margin: 0 auto;
           }
 
           .rationale-item {
             display: flex;
-            align-items: center;
             justify-content: center;
+            align-items: center;
             gap: 1rem;
+
             padding: 1.5rem;
-            background-color: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+
+            background: rgba(255,255,255,0.1);
+
+            border: 1px solid rgba(255,255,255,0.18);
+
+            border-radius: 20px;
           }
 
           .rationale-label {
-            font-size: 0.85rem;
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-            font-weight: 600;
-            opacity: 0.8;
+            font-size: 0.82rem;
+            letter-spacing: 0.12em;
+            font-weight: 700;
+            opacity: 0.75;
           }
 
           .rationale-text {
-            font-family: var(--font-serif);
-            font-size: 1.1rem;
-            font-style: italic;
+            font-size: 1.05rem;
           }
 
-          /* Final Statement */
           .final-statement {
-            padding: 6rem 2rem;
-            background-color: var(--color-paper);
+            padding: 7rem 2rem;
           }
 
           .statement-content {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             text-align: center;
           }
 
           .statement-text {
-            font-family: var(--font-serif);
-            font-size: clamp(1.5rem, 3vw, 2rem);
+            margin: 0 auto;
+
+            font-size: clamp(1.7rem, 4vw, 2.6rem);
             line-height: 1.6;
-            color: var(--color-ink);
-            font-weight: 400;
+            font-weight: 500;
           }
 
-          /* Animations */
-          @keyframes fadeInUp {
-            from {
-              opacity: 0;
-              transform: translateY(30px);
-            }
-            to {
-              opacity: 1;
-              transform: translateY(0);
-            }
+          .contact-section {
+            padding:
+              3rem 2rem
+              8rem;
+
+            text-align: center;
           }
 
-          @keyframes fadeIn {
-            from {
-              opacity: 0;
-            }
-            to {
-              opacity: 1;
-            }
+          .cta-label {
+            color: var(--color-subtle);
+            margin-bottom: 1rem;
+            font-size: 1rem;
           }
 
-          /* Responsive */
+          .cta-heading {
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            line-height: 1.1;
+            font-weight: 800;
+
+            margin-bottom: 2.5rem;
+          }
+
+          .contact-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            padding: 1rem 2rem;
+
+            border-radius: 999px;
+
+            background: rgba(0,0,0,0.92);
+            color: white;
+
+            text-decoration: none;
+
+            font-size: 1.1rem;
+            font-weight: 600;
+
+            box-shadow:
+              0 12px 30px rgba(0,0,0,0.14);
+
+            transition:
+              transform 0.3s ease,
+              box-shadow 0.3s ease;
+          }
+
+          .contact-button:hover {
+            transform: translateY(-2px);
+            box-shadow:
+              0 16px 35px rgba(0,0,0,0.18);
+          }
+
           @media (max-width: 768px) {
+
             .hero {
-              padding: 5rem 1.5rem 4rem;
+              padding: 6rem 1.5rem 5rem;
             }
 
-.logo-container {
-    margin-bottom: 2rem;
-  }
-
-  .bye-logo {
-    max-width: 350px;
-  }
             .section-content {
-              padding: 4rem 1.5rem;
+              padding: 5rem 1.5rem;
             }
 
-            .scenarios-grid {
+            .bye-logo {
+              max-width: 340px;
+            }
+
+            .hero-title {
+              font-size: 3rem;
+            }
+
+            .hero-subtitle {
+              font-size: 1.05rem;
+            }
+
+            .scenarios-grid,
+            .outcomes-grid,
+            .audience-grid {
               grid-template-columns: 1fr;
-            }
-
-            .outcomes-grid {
-              grid-template-columns: 1fr;
-            }
-
-            .insight-quote {
-              padding-left: 1.5rem;
-            }
-
-            .philosophy-rationale {
-              gap: 1rem;
             }
 
             .rationale-item {
               flex-direction: column;
               text-align: center;
-              gap: 0.5rem;
             }
+
+            .floating-home {
+              width: 52px;
+              height: 52px;
+            }
+
           }
+
         `}</style>
       </div>
     </>
