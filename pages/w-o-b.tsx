@@ -265,7 +265,7 @@ const WOBPage: NextPage = () => {
 
 {/* Contact Section */}
             <section className="text-center py-16 pt-10 font-sans mb-10">
-                <p className="text-lg mb-3 text-gray-600">EXECUTIVE CONTACT</p>
+                <p className="text-lg mb-3 text-gray-600">Bring WOB to Your Institution</p>
                 <a href="tel:+918129584938"
                     className="inline-flex items-center gap-3 text-2xl font-bold text-gray-600 border-2 border-gray-600 px-6 py-3 rounded-full hover:bg-gray-600 hover:text-white transition-colors duration-300">
                     <svg className="w-6 h-6 fill-current" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
