@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import { Home, ArrowRight, BriefcaseBusiness, Building2, GraduationCap, ShieldCheck, Users, Workflow, Cloud, Smartphone, Database, Bug, Cpu, MessagesSquare, ServerCog } from "lucide-react";
+import { Home, ArrowRight, BriefcaseBusiness, Building2, GraduationCap, ShieldCheck, Users, Workflow, Cloud, Smartphone, Database, Bug, Cpu, MessagesSquare, ServerCog, Headphones } from "lucide-react";
 import type { NextPage } from "next";
 
 const domains = [
