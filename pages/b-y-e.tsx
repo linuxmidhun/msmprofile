@@ -40,9 +40,30 @@ const BeforeYouExecute: NextPage = () => {
       <div className="bye-container">
 
         {/* Floating Home Button */}
-        <Link href="/" className="floating-home">
-          <Home size={22} />
-        </Link>
+<Link
+  href="/"
+  className="
+    fixed
+    bottom-6
+    right-6
+    z-50
+    w-14
+    h-14
+    rounded-full
+    bg-black
+    text-white
+    flex
+    items-center
+    justify-center
+    shadow-xl
+    hover:scale-105
+    hover:bg-black/90
+    transition-all
+    duration-300
+  "
+>
+  <Home size={24} />
+</Link>
 
         {/* Hero */}
         <section className="hero">
